@@ -1,0 +1,19 @@
+﻿<Window x:Class="Puzzle.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puzzle"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="900" Width="1500" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="StartGame" Content="Начать игру" HorizontalAlignment="Left" Margin="1205.293,49.991,0,0" VerticalAlignment="Top" Width="226.327" Height="55.546" FontSize="25" Click="StartGame_Click"/>
+        <Button x:Name="Records" Content="Рекорды" HorizontalAlignment="Left" Margin="1205.293,154.216,0,0" VerticalAlignment="Top" Width="226.327" Height="55.547" FontSize="25" Click="Records_Click"/>
+        <Button x:Name="AboutTheProgram" Content="О программе" HorizontalAlignment="Left" Margin="1205.293,269.271,0,0" VerticalAlignment="Top" Width="226.327" Height="55.547" FontSize="25" Click="AboutTheProgram_Click"/>
+        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="1205.293,751.13,0,0" VerticalAlignment="Top" Width="226.327" Height="55.547" FontSize="25" Click="Exit_Click"/>
+        <Label x:Name="NamePuzzle" Content="NamePuzzle" HorizontalAlignment="Left" Margin="33.991,805.177,0,0" VerticalAlignment="Top" Width="163.95" FontSize="16"/>
+    </Grid>
+</Window>
