@@ -139,7 +139,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Image\Animal\Snake\" />
     <Folder Include="Image\Anime %28secret theme%29\" />
     <Folder Include="Image\Architecture\Ancient world\" />
     <Folder Include="Image\Architecture\Baroque\" />
@@ -155,9 +154,6 @@
     <Folder Include="Image\Games\" />
     <Folder Include="Image\Mult\" />
     <Folder Include="Image\Sport\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\Nature\Nature1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Animal\Cats\Cat1.jpg" />
@@ -218,6 +214,30 @@
     <Resource Include="Image\Animal\Insects\Ins7.jpg" />
     <Resource Include="Image\Animal\Insects\Ins8.jpg" />
     <Resource Include="Image\Animal\Insects\Ins9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nat1.jpg" />
+    <Resource Include="Image\Nature\Nat10.jpg" />
+    <Resource Include="Image\Nature\Nat11.jpg" />
+    <Resource Include="Image\Nature\Nat12.jpg" />
+    <Resource Include="Image\Nature\Nat2.jpg" />
+    <Resource Include="Image\Nature\Nat3.jpg" />
+    <Resource Include="Image\Nature\Nat4.jpg" />
+    <Resource Include="Image\Nature\Nat5.jpg" />
+    <Resource Include="Image\Nature\Nat6.jpg" />
+    <Resource Include="Image\Nature\Nat7.jpg" />
+    <Resource Include="Image\Nature\Nat8.jpg" />
+    <Resource Include="Image\Nature\Nat9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
