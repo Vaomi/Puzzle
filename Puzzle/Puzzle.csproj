@@ -72,6 +72,9 @@
     <Compile Include="Forms\SelectPuzzle.xaml.cs">
       <DependentUpon>SelectPuzzle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SubTheme.xaml.cs">
+      <DependentUpon>SubTheme.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Forms\Login.xaml.cs">
@@ -130,10 +133,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\SubTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Image\Animal\Fish\" />
-    <Folder Include="Image\Animal\Insects\" />
     <Folder Include="Image\Animal\Snake\" />
     <Folder Include="Image\Anime %28secret theme%29\" />
     <Folder Include="Image\Architecture\Ancient world\" />
@@ -187,6 +192,32 @@
     <Resource Include="Image\Animal\Rodent\Rod7.jpg" />
     <Resource Include="Image\Animal\Rodent\Rod8.jpg" />
     <Resource Include="Image\Animal\Rodent\Rod9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\fish1.jpg" />
+    <Resource Include="Image\Animal\Fish\fish10.jpg" />
+    <Resource Include="Image\Animal\Fish\fish2.jpg" />
+    <Resource Include="Image\Animal\Fish\fish3.jpg" />
+    <Resource Include="Image\Animal\Fish\fish4.jpg" />
+    <Resource Include="Image\Animal\Fish\fish5.jpg" />
+    <Resource Include="Image\Animal\Fish\fish6.jpg" />
+    <Resource Include="Image\Animal\Fish\fish7.jpg" />
+    <Resource Include="Image\Animal\Fish\fish8.jpg" />
+    <Resource Include="Image\Animal\Fish\fish9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Ins1.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins10.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins11.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins12.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins2.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins3.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins4.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins5.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins6.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins7.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins8.jpg" />
+    <Resource Include="Image\Animal\Insects\Ins9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
