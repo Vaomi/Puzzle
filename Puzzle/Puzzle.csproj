@@ -132,8 +132,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Image\Animal\Beasts\" />
-    <Folder Include="Image\Animal\Crustaceans\" />
     <Folder Include="Image\Animal\Fish\" />
     <Folder Include="Image\Animal\Insects\" />
     <Folder Include="Image\Animal\Snake\" />
