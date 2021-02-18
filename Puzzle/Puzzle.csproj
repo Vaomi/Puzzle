@@ -136,7 +136,6 @@
     <Folder Include="Image\Animal\Crustaceans\" />
     <Folder Include="Image\Animal\Fish\" />
     <Folder Include="Image\Animal\Insects\" />
-    <Folder Include="Image\Animal\Rodent\" />
     <Folder Include="Image\Animal\Snake\" />
     <Folder Include="Image\Anime %28secret theme%29\" />
     <Folder Include="Image\Architecture\Ancient world\" />
@@ -178,6 +177,18 @@
     <Resource Include="Image\Animal\Dogs\dog7.jpg" />
     <Resource Include="Image\Animal\Dogs\dog8.jpg" />
     <Resource Include="Image\Animal\Dogs\dog9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rod10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
