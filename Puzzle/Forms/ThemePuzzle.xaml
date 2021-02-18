@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="ThemePuzzle" Height="900" Width="1500" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="Theme1" HorizontalAlignment="Left" Height="221.608" Margin="88,235.907,0,0" VerticalAlignment="Top" Width="248.025" Stretch="Fill"/>
+        <Image x:Name="Theme2" HorizontalAlignment="Left" Height="221.608" Margin="450.658,235.907,0,0" VerticalAlignment="Top" Width="248.025" Stretch="Fill"/>
+        <Image x:Name="Theme3" HorizontalAlignment="Left" Height="221.608" Margin="813.317,235.907,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Image x:Name="Theme4" HorizontalAlignment="Left" Height="221.608" Margin="1175.975,235.907,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Image x:Name="Theme5" HorizontalAlignment="Left" Height="221.608" Margin="88,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Image x:Name="Theme6" HorizontalAlignment="Left" Height="221.608" Margin="450.658,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Image x:Name="Theme7" HorizontalAlignment="Left" Height="221.608" Margin="813.317,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Image x:Name="Theme8" HorizontalAlignment="Left" Height="221.608" Margin="1175.975,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
+        <Label Content="Выберите тему пазла&#xD;&#xA;" HorizontalAlignment="Left" Margin="565.134,42,0,0" VerticalAlignment="Top" Height="96.223" Width="394.617" FontSize="37"/>
+
     </Grid>
 </Window>

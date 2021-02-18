@@ -25,23 +25,10 @@ namespace Puzzle
         public Login()
         {
             InitializeComponent();
-
-            /*DoubleAnimation buttonAnimation = new DoubleAnimation();
-            //buttonAnimation.From = helloButton.ActualWidth;
-            buttonAnimation.From = 75;
-            buttonAnimation.To = 150;
-            buttonAnimation.SpeedRatio = 2;
-            buttonAnimation.Duration = TimeSpan.FromSeconds(3);
-            helloButton.BeginAnimation(System.Windows.Controls.Button.WidthProperty, buttonAnimation);
-            */
         }
 
         private void helloButton_Click(object sender, RoutedEventArgs e)
         {
-
-
-
-
             //Закрытие Login и открытие MainMenu
             MainMenu Mm = new MainMenu();
             Close();
