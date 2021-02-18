@@ -133,9 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Image\Animal\Beasts\" />
-    <Folder Include="Image\Animal\Cats\" />
     <Folder Include="Image\Animal\Crustaceans\" />
-    <Folder Include="Image\Animal\Dogs\" />
     <Folder Include="Image\Animal\Fish\" />
     <Folder Include="Image\Animal\Insects\" />
     <Folder Include="Image\Animal\Rodent\" />
@@ -154,8 +152,32 @@
     <Folder Include="Image\Films\" />
     <Folder Include="Image\Games\" />
     <Folder Include="Image\Mult\" />
-    <Folder Include="Image\Nature\" />
     <Folder Include="Image\Sport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cats\Cat1.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat2.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat3.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat4.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat5.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat6.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat7.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat8.jpg" />
+    <Resource Include="Image\Animal\Cats\Cat9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dogs\dog1.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog2.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog3.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog4.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog5.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog6.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog7.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog8.jpg" />
+    <Resource Include="Image\Animal\Dogs\dog9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
