@@ -140,16 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Image\Anime %28secret theme%29\" />
-    <Folder Include="Image\Architecture\Ancient world\" />
-    <Folder Include="Image\Architecture\Baroque\" />
-    <Folder Include="Image\Architecture\Classicism\" />
-    <Folder Include="Image\Architecture\Eclecticism\" />
-    <Folder Include="Image\Architecture\Gothic\" />
-    <Folder Include="Image\Architecture\Modernism\" />
-    <Folder Include="Image\Architecture\Modern\" />
-    <Folder Include="Image\Architecture\Postmodernism\" />
-    <Folder Include="Image\Architecture\Romance\" />
-    <Folder Include="Image\Clothes\" />
+    <Folder Include="Image\Architecture\" />
     <Folder Include="Image\Films\" />
     <Folder Include="Image\Games\" />
     <Folder Include="Image\Mult\" />
