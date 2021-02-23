@@ -138,51 +138,29 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Image\Anime %28secret theme%29\" />
-    <Folder Include="Image\Architecture\" />
-    <Folder Include="Image\Films\" />
-    <Folder Include="Image\Games\" />
-    <Folder Include="Image\Mult\" />
-    <Folder Include="Image\Sport\" />
+    <Resource Include="Image\Animal\Cat\Cat1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Animal\Cats\Cat1.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat2.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat3.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat4.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat5.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat6.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat7.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat8.jpg" />
-    <Resource Include="Image\Animal\Cats\Cat9.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\Animal\Dogs\dog1.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog2.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog3.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog4.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog5.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog6.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog7.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog8.jpg" />
-    <Resource Include="Image\Animal\Dogs\dog9.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\Animal\Rodent\Rod10.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod1.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod2.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod3.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod4.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod5.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod6.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod7.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod8.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rod9.jpg" />
+    <Resource Include="Image\Animal\Dog\dog1.jpg" />
+    <Resource Include="Image\Animal\Dog\dog2.jpg" />
+    <Resource Include="Image\Animal\Dog\dog3.jpg" />
+    <Resource Include="Image\Animal\Dog\dog4.jpg" />
+    <Resource Include="Image\Animal\Dog\dog5.jpg" />
+    <Resource Include="Image\Animal\Dog\dog6.jpg" />
+    <Resource Include="Image\Animal\Dog\dog7.jpg" />
+    <Resource Include="Image\Animal\Dog\dog8.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Animal\Fish\fish1.jpg" />
-    <Resource Include="Image\Animal\Fish\fish10.jpg" />
     <Resource Include="Image\Animal\Fish\fish2.jpg" />
     <Resource Include="Image\Animal\Fish\fish3.jpg" />
     <Resource Include="Image\Animal\Fish\fish4.jpg" />
@@ -194,9 +172,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Animal\Insects\Ins1.jpg" />
-    <Resource Include="Image\Animal\Insects\Ins10.jpg" />
-    <Resource Include="Image\Animal\Insects\Ins11.jpg" />
-    <Resource Include="Image\Animal\Insects\Ins12.jpg" />
     <Resource Include="Image\Animal\Insects\Ins2.jpg" />
     <Resource Include="Image\Animal\Insects\Ins3.jpg" />
     <Resource Include="Image\Animal\Insects\Ins4.jpg" />
@@ -205,6 +180,17 @@
     <Resource Include="Image\Animal\Insects\Ins7.jpg" />
     <Resource Include="Image\Animal\Insects\Ins8.jpg" />
     <Resource Include="Image\Animal\Insects\Ins9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rod1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rod9.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Animal\Snake\Snake1.jpg" />
@@ -217,10 +203,38 @@
     <Resource Include="Image\Animal\Snake\Snake8.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Image\Architecture\GreadWall_of_China.jpg" />
+    <Resource Include="Image\Architecture\Kolizej.jpg" />
+    <Resource Include="Image\Architecture\Louvre.jpg" />
+    <Resource Include="Image\Architecture\milan_cathedral.jpg" />
+    <Resource Include="Image\Architecture\Nasirolmolk_Mosque.jpg" />
+    <Resource Include="Image\Architecture\Pantheon.jpg" />
+    <Resource Include="Image\Architecture\Pyramids.jpg" />
+    <Resource Include="Image\Architecture\Taj-mahal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\AC_Origin.jpg" />
+    <Resource Include="Image\Game\AC_Syndicate.jpg" />
+    <Resource Include="Image\Game\Call_of_duty.jpg" />
+    <Resource Include="Image\Game\Crysis.jpg" />
+    <Resource Include="Image\Game\Cyberpunk2077.png" />
+    <Resource Include="Image\Game\DarkSouls.jpg" />
+    <Resource Include="Image\Game\Witcher3.png" />
+    <Resource Include="Image\Game\World_of_Warcraft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Aladdin.jpg" />
+    <Resource Include="Image\Cartoons\how_to_train_your_dragon.jpg" />
+    <Resource Include="Image\Cartoons\Ice_age.jpg" />
+    <Resource Include="Image\Cartoons\Kungfu_panda.jpg" />
+    <Resource Include="Image\Cartoons\Minisons.jpg" />
+    <Resource Include="Image\Cartoons\Monsters_on_vacation.jpg" />
+    <Resource Include="Image\Cartoons\Shrek.jpg" />
+    <Resource Include="Image\Cartoons\spongebob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\Nature\Nat1.jpg" />
     <Resource Include="Image\Nature\Nat10.jpg" />
-    <Resource Include="Image\Nature\Nat11.jpg" />
-    <Resource Include="Image\Nature\Nat12.jpg" />
     <Resource Include="Image\Nature\Nat2.jpg" />
     <Resource Include="Image\Nature\Nat3.jpg" />
     <Resource Include="Image\Nature\Nat4.jpg" />
