@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="SubTheme" Height="450" Width="800">
-    <Grid>
-        
+        Title="SubTheme" Height="850" Width="1950" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid Width="1950">
+        <Label Content="Выберите определённую тему пазла&#xA;" Margin="0,90,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="638.616" HorizontalAlignment="Center"/>
+        <Button x:Name="Dog" Margin="110,255,1490,0" VerticalAlignment="Top" Height="200" Width="350" Click="Dog_Click">
+            <Image x:Name="B_Dogs"/>
+        </Button>
+        <Button x:Name="Cat" Margin="570,255,1030,0" VerticalAlignment="Top" Height="200" Width="350" Click="Cat_Click">
+            <Image x:Name="B_Cats"/>
+        </Button>
+        <Button x:Name="Fish" Margin="1030,255,570,0" VerticalAlignment="Top" Height="200" Width="350" Click="Fish_Click">
+            <Image x:Name="B_Fishs"/>
+        </Button>
+        <Button x:Name="Rodent" Margin="110,543,1490,0" VerticalAlignment="Top" Height="200" Width="350" Click="Rodent_Click">
+            <Image x:Name="B_Rodents"/>
+        </Button>
+        <Button x:Name="Snake" Margin="570,543,1030,0" VerticalAlignment="Top" Height="200" Width="350" Click="Snake_Click">
+            <Image x:Name="B_Snakes"/>
+        </Button>
+        <Button Margin="1030,543,570,0" VerticalAlignment="Top" Height="200" Width="350" d:IsHidden="True" Visibility="Hidden">
+            <Image x:Name="B_Dogs5"/>
+        </Button>
+        <Button x:Name="Insects" Margin="1490,255,110,0" VerticalAlignment="Top" Height="200" Width="350" Click="Insects_Click">
+            <Image x:Name="B_Insects"/>
+        </Button>
+        <Button Margin="1490,543,110,0" VerticalAlignment="Top" Height="200" Width="350" d:IsHidden="True" Visibility="Hidden">
+            <Image x:Name="B_Dogs7"/>
+        </Button>
     </Grid>
 </Window>

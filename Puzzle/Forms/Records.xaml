@@ -8,7 +8,7 @@
         Title="Records" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Таблица рекордов" HorizontalAlignment="Left" Margin="299.994,23.12,0,0" VerticalAlignment="Top" Height="34.677" Width="219.34" FontSize="20"/>
-        <DataGrid HorizontalAlignment="Left" Height="330.31" Margin="112.586,78.69,0,0" VerticalAlignment="Top" Width="575.061"/>
+        <DataGrid HorizontalAlignment="Left" Height="344" Margin="80,75,0,0" VerticalAlignment="Top" Width="636.766"/>
 
     </Grid>
 </Window>

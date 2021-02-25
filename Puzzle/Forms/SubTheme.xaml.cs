@@ -22,6 +22,44 @@ namespace Puzzle
         public SubTheme()
         {
             InitializeComponent();
+
+            Class1.RandomAnimalImage(B_Cats, Cat);
+            Class1.RandomAnimalImage(B_Dogs, Dog);
+            Class1.RandomAnimalImage(B_Fishs, Fish);
+            Class1.RandomAnimalImage(B_Insects, Insects);
+            Class1.RandomAnimalImage(B_Rodents, Rodent);
+            Class1.RandomAnimalImage(B_Snakes, Snake);
+        }
+
+        private void Dog_Click(object sender, RoutedEventArgs e)
+        {
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
+        }
+
+        private void Cat_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Fish_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Insects_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Rodent_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Snake_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

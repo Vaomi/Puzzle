@@ -5,20 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="ThemePuzzle" Height="900" Width="1500" WindowStartupLocation="CenterScreen">
-    <Grid>
+        Title="ThemePuzzle" Height="850" Width="1950" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid Width="1950">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="Theme1" HorizontalAlignment="Left" Height="221.608" Margin="88,235.907,0,0" VerticalAlignment="Top" Width="248.025" Stretch="Fill"/>
-        <Image x:Name="Theme2" HorizontalAlignment="Left" Height="221.608" Margin="450.658,235.907,0,0" VerticalAlignment="Top" Width="248.025" Stretch="Fill"/>
-        <Image x:Name="Theme3" HorizontalAlignment="Left" Height="221.608" Margin="813.317,235.907,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Image x:Name="Theme4" HorizontalAlignment="Left" Height="221.608" Margin="1175.975,235.907,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Image x:Name="Theme5" HorizontalAlignment="Left" Height="221.608" Margin="88,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Image x:Name="Theme6" HorizontalAlignment="Left" Height="221.608" Margin="450.658,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Image x:Name="Theme7" HorizontalAlignment="Left" Height="221.608" Margin="813.317,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Image x:Name="Theme8" HorizontalAlignment="Left" Height="221.608" Margin="1175.975,578.392,0,0" VerticalAlignment="Top" Width="248.025"/>
-        <Label Content="Выберите тему пазла&#xD;&#xA;" HorizontalAlignment="Left" Margin="565.134,42,0,0" VerticalAlignment="Top" Height="96.223" Width="394.617" FontSize="37"/>
+        <Label Content="Выберите тему пазла&#xD;&#xA;" Margin="788.365,90,767.019,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="394.616" HorizontalAlignment="Center"/>
+        <Button x:Name="Animal" Margin="110,255,1490,0" VerticalAlignment="Top" Height="200" Click="Animal_Click">
+            <Image x:Name="B_Animal"/>
+        </Button>
+        <Button x:Name="Architecture" Margin="570,255,1030,0" VerticalAlignment="Top" Height="200" Click="Archit_Click">
+            <Image x:Name="B_Arch"/>
+        </Button>
+        <Button x:Name="Nature" Margin="1030,255,570,0" VerticalAlignment="Top" Height="200" Click="Nature_Click">
+            <Image x:Name="B_Nature"/>
+        </Button>
+        <Button x:Name="Game" Margin="110,543,1490,0" VerticalAlignment="Top" Height="200" Click="Games_Click">
+            <Image x:Name="B_Game"/>
+        </Button>
+        <Button Margin="570,543,1030,0" VerticalAlignment="Top" Height="200" Visibility="Hidden" d:IsHidden="True">
+            <Image x:Name="B_Snake"/>
+        </Button>
+        <Button Margin="1030,543,570,0" VerticalAlignment="Top" Height="200" Visibility="Hidden" d:IsHidden="True">
+            <Image x:Name="B_D"/>
+        </Button>
+        <Button x:Name="Cartoons" Margin="1490,255,110,0" VerticalAlignment="Top" Height="200" Click="Cartoons_Click">
+            <Image x:Name="B_Cartoon"/>
+        </Button>
+        <Button Margin="1490,543,110,0" VerticalAlignment="Top" Height="200" Visibility="Hidden" d:IsHidden="True">
+            <Image x:Name="B_R"/>
+        </Button>
 
     </Grid>
 </Window>
