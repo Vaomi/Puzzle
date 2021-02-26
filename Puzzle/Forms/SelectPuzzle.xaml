@@ -5,33 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Выбор пазла" Height="899.9" Width="1950" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" Background="Black">
+        Title="Выбор пазла" Height="900" Width="1950" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" Background="Black">
     <Grid>
         <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
         <Label Content="Выберите пазл" Foreground="Cyan" Margin="0,90,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="284.616" HorizontalAlignment="Center"/>
-        <Button x:Name="Puzzle1" Margin="111,255,1483,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle1_Click">
-            <Image x:Name="B_Puzzle1"/>
+        <Button x:Name="Puzzle1" Margin="110,255,1483,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle1_Click">
+            <Image x:Name="B_Puzzle1" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle2" Margin="571,255,1023,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle2_Click">
-            <Image x:Name="B_Puzzle2"/>
+        <Button x:Name="Puzzle2" Margin="570,255,1023,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle2_Click">
+            <Image x:Name="B_Puzzle2" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle3" Margin="1031,255,563,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle3_Click">
-            <Image x:Name="B_Puzzle3"/>
+        <Button x:Name="Puzzle3" Margin="1030,255,563,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle3_Click">
+            <Image x:Name="B_Puzzle3" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle4" Margin="1491,255,103,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle4_Click">
-            <Image x:Name="B_Puzzle4"/>
+        <Button x:Name="Puzzle4" Margin="1490,255,103,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle4_Click">
+            <Image x:Name="B_Puzzle4" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle5" Margin="111,543,1483,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle5_Click">
-            <Image x:Name="B_Puzzle5"/>
+        <Button x:Name="Puzzle5" Margin="110,543,1483,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle5_Click">
+            <Image x:Name="B_Puzzle5" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle6" Margin="571,543,1023,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle6_Click">
-            <Image x:Name="B_Puzzle6"/>
+        <Button x:Name="Puzzle6" Margin="570,543,1023,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle6_Click">
+            <Image x:Name="B_Puzzle6" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle7" Margin="1031,543,563,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle7_Click">
-            <Image x:Name="B_Puzzle7"/>
+        <Button x:Name="Puzzle7" Margin="1030,543,563,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle7_Click">
+            <Image x:Name="B_Puzzle7" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="Puzzle8" Margin="1491,543,103,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle8_Click">
-            <Image x:Name="B_Puzzle8"/>
+        <Button x:Name="Puzzle8" Margin="1490,543,103,0" VerticalAlignment="Top" Height="200" Width="350" Click="Puzzle8_Click">
+            <Image x:Name="B_Puzzle8" Stretch="UniformToFill"/>
         </Button>
 
     </Grid>

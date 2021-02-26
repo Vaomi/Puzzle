@@ -22,6 +22,21 @@ namespace Puzzle
         public GameForm()
         {
             InitializeComponent();
+
+            GlobalClass.ImageToGameForm(Example);
+            NicName.Content = "Никнейм - "+GlobalClass.NicName;
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void ExitToMainMenu_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu Mm = new MainMenu();
+            Close();
+            Mm.Show();
         }
     }
 }

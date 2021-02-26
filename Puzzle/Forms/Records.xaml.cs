@@ -22,6 +22,7 @@ namespace Puzzle
         public Records()
         {
             InitializeComponent();
+
         }
     }
 }

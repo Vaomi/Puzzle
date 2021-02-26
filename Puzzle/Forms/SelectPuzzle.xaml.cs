@@ -41,21 +41,61 @@ namespace Puzzle
             }
         }
 
-        //Присваивание бля каждого button определённого индекса
-        private void Puzzle1_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "1";
+        
+        //Присваивание бля каждого button определённого индекса и вызов SelectPuzzle
+        private void Puzzle1_Click(object sender, RoutedEventArgs e) 
+        {
+            GlobalClass.Number = "1";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle2_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "2";
+        private void Puzzle2_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "2";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle3_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "3";
+        private void Puzzle3_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "3";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
+        private void Puzzle4_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "4";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle4_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "4";
+        private void Puzzle5_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "5";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle5_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "5";
+        private void Puzzle6_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "6";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle6_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "6";
+        private void Puzzle7_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "7";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
 
-        private void Puzzle7_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "7";
-
-        private void Puzzle8_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "8";
+        private void Puzzle8_Click(object sender, RoutedEventArgs e)
+        {
+            GlobalClass.Number = "8";
+            GameForm gf = new GameForm();
+            gf.ShowDialog();
+        }
     }
 }

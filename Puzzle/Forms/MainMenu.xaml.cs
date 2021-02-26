@@ -24,8 +24,6 @@ namespace Puzzle
             InitializeComponent();
         }
 
-        
-
         private void StartGame_Click(object sender, RoutedEventArgs e)
         {
             ThemePuzzle TP = new ThemePuzzle();
@@ -45,7 +43,7 @@ namespace Puzzle
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
     }
 }

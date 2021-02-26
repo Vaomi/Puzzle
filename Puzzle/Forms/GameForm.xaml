@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="GameForm" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF020202">
+        Title="GameForm" Height="899.6" Width="1920" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF020202" ResizeMode="NoResize" WindowStyle="None">
     <Grid>
-        <Image Source="Image/papers.co-vo67-geometric-rectangle-art-rainbow-pattern-40-wallpaper.jpg" Stretch="UniformToFill"/>
+        <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
+
+        <Image x:Name="Example" Margin="1296,454.713,34,0" Source="../Image/Animal/Cat/Cat1.jpg" Height="331.7" VerticalAlignment="Top"/>
+        <Button HorizontalAlignment="Left" Margin="218,198.787,0,0" Width="1041.446" Height="587.626" VerticalAlignment="Top">
+            <Image x:Name="Picture" Margin="0" OpacityMask="#FFFFF5F5" Source="../Image/Animal/Cat/Cat1.jpg" Height="583.413" VerticalAlignment="Top"/>
+        </Button>
+        <Image x:Name="Place" Margin="218,198.787,660.554,113.187"/>
+        <Label x:Name="NicName" Content="Ник" HorizontalAlignment="Left" Margin="1296,213.526,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label Content="Время" HorizontalAlignment="Left" Margin="1296,265.769,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label Content="Сколько собранно" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1296,313.012,0,0"/>
+        <Button x:Name="ExitToMainMenu_Copy" Content="В главное меню" Click="ExitToMainMenu_Click" Margin="0,387.226,344,0" FontSize="28" HorizontalAlignment="Right" Width="280" Background="#FFF0E842" Height="43.243" VerticalAlignment="Top"/>
+        <Button x:Name="Exit_Copy1" Content="Выход из игры " Click="Exit_Click" Margin="0,387.226,34,0" FontSize="28" HorizontalAlignment="Right" Width="280" Background="#FFF51E1E" Height="43.243" VerticalAlignment="Top"/>
     </Grid>
 </Window>
