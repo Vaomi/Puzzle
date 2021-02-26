@@ -34,12 +34,14 @@ namespace Puzzle
 
         private void Animal_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Theme = "Animal";
             SubTheme ST = new SubTheme();
             ST.ShowDialog();
         }
 
         private void Archit_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Theme = "Architecture";
             GlobalClass.Hepler = "Architecture";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
@@ -47,6 +49,7 @@ namespace Puzzle
 
         private void Nature_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Theme = "Nature";
             GlobalClass.Hepler = "Nature";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
@@ -54,6 +57,7 @@ namespace Puzzle
 
         private void Cartoons_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Theme = "Cartoons";
             GlobalClass.Hepler = "Cartoons";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
@@ -61,6 +65,7 @@ namespace Puzzle
 
         private void Games_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Theme = "Game";
             GlobalClass.Hepler = "Game";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();

@@ -11,7 +11,10 @@ namespace Puzzle
     public static class GlobalClass
     {
         //"Глобальная" переменная
-        public static string Hepler; 
+        public static string
+            Hepler, //Выбор подтемы в Animal
+            Theme, //Выбор темы, не считая Animal
+            Number; //Номер картинки в SelectPuzzle
 
         //Рандомная картинка в теме Animal
         public static void RandomAnimalImage(Image Im1, Button But1)
@@ -50,18 +53,27 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
-        //Последоватлеьная картинка на вывод в SelectPuzzle
+        //Последовательная картинка на вывод в SelectPuzzle из SubTheme
         static int num = 0; //Указатель на номер рисунка
-        public static void СorrectSelectPuzzle(Image Im1, Button But1)
+        public static void СorrectSelectPuzzle(Image Im1)
         {
-            if (num >= 9) num = 0; num++; //Указатель на номер рисунка
+            if (num == 8) num = 0; num++; //Указатель на номер рисунка
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
-            if(Hepler != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
+            if(Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
             else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
             BMI.EndInit();
             Im1.Source = BMI;
+        }
 
+        public static void ImageToGameForm(Image Im1)
+        {
+            BitmapImage BMI = new BitmapImage();
+            BMI.BeginInit();
+            if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Theme}/{Theme}{Number}.jpg", UriKind.Relative);
+            else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{Number}.jpg", UriKind.Relative);
+            BMI.EndInit();
+            Im1.Source = BMI;
         }
     }
 }

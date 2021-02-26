@@ -22,11 +22,40 @@ namespace Puzzle
         public SelectPuzzle()
         {
             InitializeComponent();
-            //TODO: сделать вывод на форму
-            for(int i = 1; i < 9; i++)
+            //Вывод на форму SelectPuzzle картинки в button
+
+            Button[] but = new Button[8]
             {
-                //GlobalClass.СorrectSelectPuzzle(B_Puzzle[i],Puzzle1);
+                Puzzle1,
+                Puzzle2,
+                Puzzle3,
+                Puzzle4,
+                Puzzle5,
+                Puzzle6,
+                Puzzle7,
+                Puzzle8,
+            };
+            foreach(Button puzl in but)
+            {
+                GlobalClass.СorrectSelectPuzzle((Image)puzl.Content);
             }
         }
+
+        //Присваивание бля каждого button определённого индекса
+        private void Puzzle1_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "1";
+
+        private void Puzzle2_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "2";
+
+        private void Puzzle3_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "3";
+
+        private void Puzzle4_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "4";
+
+        private void Puzzle5_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "5";
+
+        private void Puzzle6_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "6";
+
+        private void Puzzle7_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "7";
+
+        private void Puzzle8_Click(object sender, RoutedEventArgs e) => GlobalClass.Number = "8";
     }
 }
