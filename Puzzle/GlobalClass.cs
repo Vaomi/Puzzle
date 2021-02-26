@@ -8,8 +8,12 @@ using System.Windows.Media.Imaging;
 
 namespace Puzzle
 {
-    public static class Class1
+    public static class GlobalClass
     {
+        //"Глобальная" переменная
+        public static string Hepler; 
+
+        //Рандомная картинка в теме Animal
         public static void RandomAnimalImage(Image Im1, Button But1)
         {
             int num;
@@ -22,7 +26,7 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
-        //Рандомная картинка в кнопке в "Выбор темы - ThemePuzzle"
+        //Рандомная картинка в кнопке в "Выбор темы (ThemePuzzle)"
         public static void RandomImage(Image Im1, Button But1) 
         {
             int num, theme;            
@@ -44,6 +48,20 @@ namespace Puzzle
             }
             BMI.EndInit();
             Im1.Source = BMI;
+        }
+
+        //Последоватлеьная картинка на вывод в SelectPuzzle
+        static int num = 0; //Указатель на номер рисунка
+        public static void СorrectSelectPuzzle(Image Im1, Button But1)
+        {
+            if (num >= 9) num = 0; num++; //Указатель на номер рисунка
+            BitmapImage BMI = new BitmapImage();
+            BMI.BeginInit();
+            if(Hepler != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
+            else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
+            BMI.EndInit();
+            Im1.Source = BMI;
+
         }
     }
 }

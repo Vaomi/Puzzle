@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="ThemePuzzle" Height="850" Width="1950" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="ToolWindow">
+        Title="Выбор темы пазла" Height="850" Width="1950" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="ToolWindow" Background="#FF020202">
     <Grid Width="1950">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -13,7 +13,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="Выберите тему пазла&#xD;&#xA;" Margin="788.365,90,767.019,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="394.616" HorizontalAlignment="Center"/>
+        <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
+        <Label Content="Выберите тему пазла" Margin="0,100,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="394.616" HorizontalAlignment="Center" Foreground="Cyan"/>
         <Button x:Name="Animal" Margin="110,255,1490,0" VerticalAlignment="Top" Height="200" Click="Animal_Click">
             <Image x:Name="B_Animal"/>
         </Button>

@@ -60,7 +60,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GlobalClass.cs" />
     <Compile Include="Forms\GameForm.xaml.cs">
       <DependentUpon>GameForm.xaml</DependentUpon>
     </Compile>
@@ -238,6 +238,33 @@
     <Resource Include="Image\Game\Game6.jpg" />
     <Resource Include="Image\Game\Game7.jpg" />
     <Resource Include="Image\Game\Game8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\ICO\ICO_Registration.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Trash\Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Trash\photo1.jpg" />
+    <Resource Include="Forms\Image\Trash\GameForm_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Trash\7514fa61a71bca4eea75e70c70bfef47.jpg" />
+    <Resource Include="Forms\Image\Trash\abstract-puzzle-jigsaw-puzzle-texture-wallpaper-preview.jpg" />
+    <Resource Include="Forms\Image\Trash\squares-triangles-patterns-1920x1080-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Trash\iPad-Pro-Retina-Stock-Wallpaper-10-2048x2048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\ICO\ICO_MainMenu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\Image\Trash\icons8_menu.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

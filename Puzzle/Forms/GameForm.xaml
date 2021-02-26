@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="GameForm" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized">
-    <Grid/>
+        Title="GameForm" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF020202">
+    <Grid>
+        <Image Source="Image/papers.co-vo67-geometric-rectangle-art-rainbow-pattern-40-wallpaper.jpg" Stretch="UniformToFill"/>
+    </Grid>
 </Window>

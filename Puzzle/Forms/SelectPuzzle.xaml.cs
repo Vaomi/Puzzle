@@ -22,6 +22,11 @@ namespace Puzzle
         public SelectPuzzle()
         {
             InitializeComponent();
+            //TODO: сделать вывод на форму
+            for(int i = 1; i < 9; i++)
+            {
+                //GlobalClass.СorrectSelectPuzzle(B_Puzzle[i],Puzzle1);
+            }
         }
     }
 }

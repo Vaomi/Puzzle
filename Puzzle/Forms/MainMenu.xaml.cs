@@ -28,10 +28,7 @@ namespace Puzzle
 
         private void StartGame_Click(object sender, RoutedEventArgs e)
         {
-            /*GameForm GF = new GameForm();
-            Close();
-            GF.ShowDialog();
-            */ThemePuzzle TP = new ThemePuzzle();
+            ThemePuzzle TP = new ThemePuzzle();
             TP.ShowDialog();
         }
 

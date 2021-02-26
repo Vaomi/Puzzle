@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Login" Height="270" Width="540" WindowStartupLocation="CenterScreen">
+        Title="Вход в игру" Height="270" Width="480" WindowStartupLocation="CenterScreen" Icon="Image/ICO/ICO_Registration.ico" ResizeMode="NoResize" Background="#FF0A0909">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" Height="23.993" Margin="175.49,112.107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159.398" Text="Ваш никнейм?" TextDecorations="{x:Null}" FontStyle="Italic" Opacity="0.8"/>
-        <Label Content="Добро пожаловать в игру. &#xD;&#xA;   Введите свой никнейм" HorizontalAlignment="Left" Height="57.617" Margin="149.02,34.589,0,0" VerticalAlignment="Top" Width="221.981" FontSize="16"/>
-        <Button x:Name="helloButton" Content="Вход" HorizontalAlignment="Left" Margin="201.63,152.799,0,0" VerticalAlignment="Top" Width="109.768" Click="helloButton_Click"/>
+        <Image Source="Image/Background.jpg " Stretch="UniformToFill"/>
+        <TextBox HorizontalAlignment="Center" Height="23.993" Margin="0,111.107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159.398" Text="Ваш никнейм?" TextDecorations="{x:Null}" FontStyle="Italic" Opacity="0.8"/>
+        <Label Content="Добро пожаловать в игру. &#xD;&#xA;   Введите свой никнейм" Foreground="Cyan" HorizontalAlignment="Center" Height="57.617" Margin="0,33.589,0,0" VerticalAlignment="Top" Width="221.981" FontSize="16"/>
+        <Button x:Name="helloButton" Content="Вход" HorizontalAlignment="Center" Margin="0,151.799,0,0" VerticalAlignment="Top" Width="109.768" Click="helloButton_Click" FontSize="16"/>
     </Grid>
 </Window>

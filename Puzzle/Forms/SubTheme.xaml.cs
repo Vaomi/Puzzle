@@ -23,43 +23,54 @@ namespace Puzzle
         {
             InitializeComponent();
 
-            Class1.RandomAnimalImage(B_Cats, Cat);
-            Class1.RandomAnimalImage(B_Dogs, Dog);
-            Class1.RandomAnimalImage(B_Fishs, Fish);
-            Class1.RandomAnimalImage(B_Insects, Insects);
-            Class1.RandomAnimalImage(B_Rodents, Rodent);
-            Class1.RandomAnimalImage(B_Snakes, Snake);
+            GlobalClass.RandomAnimalImage(B_Cats, Cat);
+            GlobalClass.RandomAnimalImage(B_Dogs, Dog);
+            GlobalClass.RandomAnimalImage(B_Fishs, Fish);
+            GlobalClass.RandomAnimalImage(B_Insects, Insects);
+            GlobalClass.RandomAnimalImage(B_Rodents, Rodent);
+            GlobalClass.RandomAnimalImage(B_Snakes, Snake);
         }
 
         private void Dog_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Hepler = "Dog";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Cat_Click(object sender, RoutedEventArgs e)
         {
-
+            GlobalClass.Hepler = "Cat";
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
         }
 
         private void Fish_Click(object sender, RoutedEventArgs e)
         {
-
+            GlobalClass.Hepler = "Fish";
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
         }
 
         private void Insects_Click(object sender, RoutedEventArgs e)
         {
-
+            GlobalClass.Hepler = "Insects";
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
         }
 
         private void Rodent_Click(object sender, RoutedEventArgs e)
         {
-
+            GlobalClass.Hepler = "Rodent";
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
         }
 
         private void Snake_Click(object sender, RoutedEventArgs e)
         {
-
+            GlobalClass.Hepler = "Snake";
+            SelectPuzzle ST = new SelectPuzzle();
+            ST.ShowDialog();
         }
     }
 }

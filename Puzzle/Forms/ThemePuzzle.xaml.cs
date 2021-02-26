@@ -24,11 +24,11 @@ namespace Puzzle
         {
             InitializeComponent();
 
-            Class1.RandomImage(B_Animal,Animal);
-            Class1.RandomImage(B_Arch, Architecture);
-            Class1.RandomImage(B_Cartoon, Cartoons);
-            Class1.RandomImage(B_Game, Game);
-            Class1.RandomImage(B_Nature, Nature);
+            GlobalClass.RandomImage(B_Animal,Animal);
+            GlobalClass.RandomImage(B_Arch, Architecture);
+            GlobalClass.RandomImage(B_Cartoon, Cartoons);
+            GlobalClass.RandomImage(B_Game, Game);
+            GlobalClass.RandomImage(B_Nature, Nature);
 
         }
 
@@ -40,24 +40,28 @@ namespace Puzzle
 
         private void Archit_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Hepler = "Architecture";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Nature_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Hepler = "Nature";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Cartoons_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Hepler = "Cartoons";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Games_Click(object sender, RoutedEventArgs e)
         {
+            GlobalClass.Hepler = "Game";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }

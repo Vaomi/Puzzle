@@ -5,32 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="SelectPuzzle" Height="899.9" Width="1950" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize">
+        Title="Выбор пазла" Height="899.9" Width="1950" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" Background="Black">
     <Grid>
-        <Label Content="Выберите пазла&#xA;" Margin="0,90,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="284.616" HorizontalAlignment="Center"/>
-        <Button x:Name="Dog" Margin="111,255,1483,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Dogs"/>
+        <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
+        <Label Content="Выберите пазл" Foreground="Cyan" Margin="0,90,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="284.616" HorizontalAlignment="Center"/>
+        <Button x:Name="Puzzle1" Margin="111,255,1483,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle1"/>
         </Button>
-        <Button x:Name="Cat" Margin="571,255,1023,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Cats"/>
+        <Button x:Name="Puzzle2" Margin="571,255,1023,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle2"/>
         </Button>
-        <Button x:Name="Fish" Margin="1031,255,563,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Fishs"/>
+        <Button x:Name="Puzzle3" Margin="1031,255,563,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle3"/>
         </Button>
-        <Button x:Name="Rodent" Margin="111,543,1483,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Rodents"/>
+        <Button x:Name="Puzzle4" Margin="1491,255,103,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle4"/>
         </Button>
-        <Button x:Name="Snake" Margin="571,543,1023,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Snakes"/>
+        <Button x:Name="Puzzle5" Margin="111,543,1483,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle5"/>
         </Button>
-        <Button Margin="1031,543,563,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Dogs5"/>
+        <Button x:Name="Puzzle6" Margin="571,543,1023,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle6"/>
         </Button>
-        <Button x:Name="Insect" Margin="1491,255,103,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Insects"/>
+        <Button x:Name="Puzzle7" Margin="1031,543,563,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle7"/>
         </Button>
-        <Button Margin="1491,543,103,0" VerticalAlignment="Top" Height="200" Width="350">
-            <Image x:Name="B_Dogs7"/>
+        <Button x:Name="Puzzle8" Margin="1491,543,103,0" VerticalAlignment="Top" Height="200" Width="350">
+            <Image x:Name="B_Puzzle8"/>
         </Button>
 
     </Grid>
