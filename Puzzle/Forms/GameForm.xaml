@@ -14,10 +14,14 @@
             <Image x:Name="Picture" Margin="0" OpacityMask="#FFFFF5F5" Source="../Image/Animal/Cat/Cat1.jpg" Height="583.413" VerticalAlignment="Top"/>
         </Button>
         <Image x:Name="Place" Margin="218,198.787,660.554,113.187"/>
-        <Label x:Name="NicName" Content="Ник" HorizontalAlignment="Left" Margin="1296,213.526,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
-        <Label Content="Время" HorizontalAlignment="Left" Margin="1296,265.769,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
-        <Label Content="Сколько собранно" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1296,313.012,0,0"/>
+        <Label x:Name="LabelNicName" Content="{}{NicName}" HorizontalAlignment="Left" Margin="1412.71,213.524,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label x:Name="LabelTime" Content="{}{00:00}" HorizontalAlignment="Left" Margin="1392.966,265.768,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label x:Name="LabelProcess" Content="{}{Process}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1545.503,313.011,0,0"/>
         <Button x:Name="ExitToMainMenu_Copy" Content="В главное меню" Click="ExitToMainMenu_Click" Margin="0,387.226,344,0" FontSize="28" HorizontalAlignment="Right" Width="280" Background="#FFF0E842" Height="43.243" VerticalAlignment="Top"/>
         <Button x:Name="Exit_Copy1" Content="Выход из игры " Click="Exit_Click" Margin="0,387.226,34,0" FontSize="28" HorizontalAlignment="Right" Width="280" Background="#FFF51E1E" Height="43.243" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="1657,10,0,0" VerticalAlignment="Top" Width="253" Click="Button_Click" Height="128" Background="#FFD12C2C"/>
+        <Label x:Name="LabelTime_Copy" Content="Время:" HorizontalAlignment="Left" Margin="1296,265.768,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label x:Name="LabelNicName_Copy" Content="Никейм:" HorizontalAlignment="Left" Margin="1296,213.524,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
+        <Label x:Name="LabelProcess_Copy" Content="Сколько собранно:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1296,313.011,0,0"/>
     </Grid>
 </Window>

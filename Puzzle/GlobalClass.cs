@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using System.Windows.Threading;
 //using System.Windows.Forms;
 
 namespace Puzzle
@@ -17,10 +18,12 @@ namespace Puzzle
             Theme, //Выбор темы, не считая Animal
             Number; //Номер картинки в SelectPuzzle
         //Таблица рекордов
-        public static string NicName; 
-        public static int Time; 
+        public static string NicName;
+        //TODO:Рекорды
+        
 
-        //Рандомная картинка в теме Animal
+
+        //Рандомная картинка в теме Animal (SubTheme)
         public static void RandomAnimalImage(Image Im1, Button But1)
         {
             int num;
@@ -43,7 +46,10 @@ namespace Puzzle
             theme = randTheme.Next(1, 6);
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
+
+            //для всех остальных
             if (But1.Name != "Animal") BMI.UriSource = new Uri($"/Image/{But1.Name}/{But1.Name}{num}.jpg", UriKind.Relative);
+            //для Animal
             else
             {
                 if (theme == 1) BMI.UriSource = new Uri($"/Image/Animal/Cat/Cat{num}.jpg", UriKind.Relative);
@@ -70,7 +76,7 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
-        //Отображение фоновой картинки (самого пазла) в GameForm
+        //Отображение картинки в GameForm
         public static void ImageToGameForm(Image Im1)
         {
             BitmapImage BMI = new BitmapImage();
@@ -81,7 +87,7 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
-        //Выход
+        //Диалоговое окно выхода
         public static void ExitForm(System.ComponentModel.CancelEventArgs e)
         {
             System.Windows.Forms.DialogResult noExit;
@@ -90,19 +96,15 @@ namespace Puzzle
                 e.Cancel = true;
         }
 
-        //Рекорды
-        public static void Records(DataGrid dg)
+
+        //TODO:Рекорды
+        public static void Record()
         {
-            dg.FrozenColumnCount = 4;
-            
+
         }
 
 
-
-
-
-
-        //СБОРОЧКА ПАЗЛИКОВ УХУУУ
+        //TODO:СБОРОЧКА ПАЗЛИКОВ УХУУУ
         public static void Assembly_of_Puzzles()
         {
 

@@ -76,6 +76,7 @@
     <Compile Include="Forms\SubTheme.xaml.cs">
       <DependentUpon>SubTheme.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TimerForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Forms\Login.xaml.cs">

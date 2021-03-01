@@ -11,21 +11,50 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Puzzle
 {
     /// <summary>
     /// Логика взаимодействия для GameForm.xaml
     /// </summary>
+    /// 
     public partial class GameForm : Window
     {
+
+        TimerForm tf;
+
         public GameForm()
         {
             InitializeComponent();
+            //Визуализация картинки 
+            //GlobalClass.ImageToGameForm(Place); //(главной)
+            GlobalClass.ImageToGameForm(Example); //(примера-маленькой)
 
-            GlobalClass.ImageToGameForm(Example);
-            NicName.Content = "Никнейм - "+GlobalClass.NicName;
+            //Никнейм (label)
+            LabelNicName.Content = GlobalClass.NicName;
+
+            //Время (label)
+            tf = new TimerForm(0, LabelTime);
+            tf.timer.Tick += timer_Tick;
+            tf.Start();
+
+            //TODO:Процесс сбора пазла (label)
+
+		}
+
+        //Подсчёт времени
+		private void timer_Tick(object sender, EventArgs e)
+		{
+            if (LabelProcess.Content != "100") //LabelProcess.Content <= 100
+            {
+                tf.Second++;
+                tf.span = TimeSpan.FromSeconds(tf.Second);
+                tf.labelName.Content = tf.span.ToString("mm':'ss");
+            }
+            else tf.Stop();
         }
+        
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
@@ -37,6 +66,12 @@ namespace Puzzle
             MainMenu Mm = new MainMenu();
             Close();
             Mm.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+            
         }
     }
 }

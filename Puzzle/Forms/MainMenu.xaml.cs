@@ -32,7 +32,7 @@ namespace Puzzle
 
         private void Records_Click(object sender, RoutedEventArgs e)
         {
-            Records rec = new Records();
+            RecordsForm rec = new RecordsForm();
             rec.ShowDialog();
         }
 

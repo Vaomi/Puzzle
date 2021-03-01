@@ -17,11 +17,16 @@ namespace Puzzle
     /// <summary>
     /// Логика взаимодействия для Records.xaml
     /// </summary>
-    public partial class Records : Window
+    public partial class RecordsForm : Window
     {
-        public Records()
+        public RecordsForm()
         {
             InitializeComponent();
+
+        }
+
+        private void Record_Loaded(object sender, RoutedEventArgs e)
+        {
 
         }
     }
