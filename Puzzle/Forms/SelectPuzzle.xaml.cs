@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using ClassLibrary;
+
 namespace Puzzle
 {
     /// <summary>
@@ -37,7 +39,7 @@ namespace Puzzle
             };
             foreach(Button puzl in but)
             {
-                GlobalClass.СorrectSelectPuzzle((Image)puzl.Content);
+                ShowImages.СorrectSelectPuzzle((Image)puzl.Content);
             }
         }
 
@@ -45,55 +47,55 @@ namespace Puzzle
         //Присваивание бля каждого button определённого индекса и вызов SelectPuzzle
         private void Puzzle1_Click(object sender, RoutedEventArgs e) 
         {
-            GlobalClass.Number = "1";
+            ShowImages.Number = "1";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle2_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "2";
+            ShowImages.Number = "2";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle3_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "3";
+            ShowImages.Number = "3";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
         private void Puzzle4_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "4";
+            ShowImages.Number = "4";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle5_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "5";
+            ShowImages.Number = "5";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle6_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "6";
+            ShowImages.Number = "6";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle7_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "7";
+            ShowImages.Number = "7";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }
 
         private void Puzzle8_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Number = "8";
+            ShowImages.Number = "8";
             GameForm gf = new GameForm();
             gf.ShowDialog();
         }

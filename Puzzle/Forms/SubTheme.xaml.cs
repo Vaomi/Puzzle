@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using ClassLibrary;
+
 namespace Puzzle
 {
     /// <summary>
@@ -23,52 +25,52 @@ namespace Puzzle
         {
             InitializeComponent();
 
-            GlobalClass.RandomAnimalImage(B_Cats, Cat);
-            GlobalClass.RandomAnimalImage(B_Dogs, Dog);
-            GlobalClass.RandomAnimalImage(B_Fishs, Fish);
-            GlobalClass.RandomAnimalImage(B_Insects, Insects);
-            GlobalClass.RandomAnimalImage(B_Rodents, Rodent);
-            GlobalClass.RandomAnimalImage(B_Snakes, Snake);
+            ShowImages.RandomAnimalImage(B_Cats, Cat);
+            ShowImages.RandomAnimalImage(B_Dogs, Dog);
+            ShowImages.RandomAnimalImage(B_Fishs, Fish);
+            ShowImages.RandomAnimalImage(B_Insects, Insects);
+            ShowImages.RandomAnimalImage(B_Rodents, Rodent);
+            ShowImages.RandomAnimalImage(B_Snakes, Snake);
         }
 
         private void Dog_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Dog";
+            ShowImages.Hepler = "Dog";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Cat_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Cat";
+            ShowImages.Hepler = "Cat";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Fish_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Fish";
+            ShowImages.Hepler = "Fish";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Insects_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Insects";
+            ShowImages.Hepler = "Insects";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Rodent_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Rodent";
+            ShowImages.Hepler = "Rodent";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }
 
         private void Snake_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Hepler = "Snake";
+            ShowImages.Hepler = "Snake";
             SelectPuzzle ST = new SelectPuzzle();
             ST.ShowDialog();
         }

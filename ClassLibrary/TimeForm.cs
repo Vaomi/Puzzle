@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using System.Windows.Threading;
 using System.Windows.Controls;
 
-namespace Puzzle
+namespace ClassLibrary
 {
     public class TimerForm
     {
-        public  DispatcherTimer timer;
-        public  int Second;
+        public DispatcherTimer timer;
+        public int Second;
         public Label labelName;
         public TimeSpan span;
 

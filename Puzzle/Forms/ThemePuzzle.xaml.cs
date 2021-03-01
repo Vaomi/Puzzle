@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using ClassLibrary;
+
 
 namespace Puzzle
 {
@@ -24,49 +26,49 @@ namespace Puzzle
         {
             InitializeComponent();
 
-            GlobalClass.RandomImage(B_Animal,Animal);
-            GlobalClass.RandomImage(B_Arch, Architecture);
-            GlobalClass.RandomImage(B_Cartoon, Cartoons);
-            GlobalClass.RandomImage(B_Game, Game);
-            GlobalClass.RandomImage(B_Nature, Nature);
+            ShowImages.RandomImage(B_Animal,Animal);
+            ShowImages.RandomImage(B_Arch, Architecture);
+            ShowImages.RandomImage(B_Cartoon, Cartoons);
+            ShowImages.RandomImage(B_Game, Game);
+            ShowImages.RandomImage(B_Nature, Nature);
 
         }
 
         private void Animal_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Theme = "Animal";
+            ShowImages.Theme = "Animal";
             SubTheme ST = new SubTheme();
             ST.ShowDialog();
         }
 
         private void Archit_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Theme = "Architecture";
-            GlobalClass.Hepler = "Architecture";
+            ShowImages.Theme = "Architecture";
+            ShowImages.Hepler = "Architecture";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Nature_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Theme = "Nature";
-            GlobalClass.Hepler = "Nature";
+            ShowImages.Theme = "Nature";
+            ShowImages.Hepler = "Nature";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Cartoons_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Theme = "Cartoons";
-            GlobalClass.Hepler = "Cartoons";
+            ShowImages.Theme = "Cartoons";
+            ShowImages.Hepler = "Cartoons";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }
 
         private void Games_Click(object sender, RoutedEventArgs e)
         {
-            GlobalClass.Theme = "Game";
-            GlobalClass.Hepler = "Game";
+            ShowImages.Theme = "Game";
+            ShowImages.Hepler = "Game";
             SelectPuzzle SP = new SelectPuzzle();
             SP.ShowDialog();
         }

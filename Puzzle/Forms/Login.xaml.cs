@@ -15,6 +15,8 @@ using System.Windows.Forms;
 using System.Windows.Media.Animation;
 using MessageBox = System.Windows.Forms.MessageBox;
 
+using ClassLibrary;
+
 namespace Puzzle
 {
     /// <summary>
@@ -30,7 +32,7 @@ namespace Puzzle
         private void RegistrButton_Click(object sender, RoutedEventArgs e)
         {
             //Закрытие Login и открытие MainMenu
-            GlobalClass.NicName = InputName.Text;
+            ShowImages.NicName = InputName.Text;
             MainMenu Mm = new MainMenu();
             Close();
             Mm.Show();

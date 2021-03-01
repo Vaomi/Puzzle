@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
-//using System.Windows.Forms;
 
-namespace Puzzle
+namespace ClassLibrary
 {
-    public static class GlobalClass
+    public static class ShowImages
     {
         //"Глобальные" переменные
         public static string
@@ -19,22 +18,7 @@ namespace Puzzle
             Number; //Номер картинки в SelectPuzzle
         //Таблица рекордов
         public static string NicName;
-        //TODO:Рекорды
-        
 
-
-        //Рандомная картинка в теме Animal (SubTheme)
-        public static void RandomAnimalImage(Image Im1, Button But1)
-        {
-            int num;
-            Random rand = new Random();
-            num = rand.Next(1, 8);
-            BitmapImage BMI = new BitmapImage();
-            BMI.BeginInit();
-            BMI.UriSource = new Uri($"/Image/Animal/{But1.Name}/{But1.Name}{num}.jpg", UriKind.Relative);
-            BMI.EndInit();
-            Im1.Source = BMI;
-        }
 
         //Рандомная картинка в кнопке в "Выбор темы (ThemePuzzle)"
         public static void RandomImage(Image Im1, Button But1)
@@ -63,6 +47,20 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
+        //Рандомная картинка в теме Animal (SubTheme)
+        public static void RandomAnimalImage(Image Im1, Button But1)
+        {
+            int num;
+            Random rand = new Random();
+            num = rand.Next(1, 8);
+            BitmapImage BMI = new BitmapImage();
+            BMI.BeginInit();
+            BMI.UriSource = new Uri($"/Image/Animal/{But1.Name}/{But1.Name}{num}.jpg", UriKind.Relative);
+            BMI.EndInit();
+            Im1.Source = BMI;
+        }
+
+        
         //Последовательная картинка на вывод в SelectPuzzle из SubTheme
         static int num = 0; //Указатель на номер рисунка
         public static void СorrectSelectPuzzle(Image Im1)
@@ -87,27 +85,5 @@ namespace Puzzle
             Im1.Source = BMI;
         }
 
-        //Диалоговое окно выхода
-        public static void ExitForm(System.ComponentModel.CancelEventArgs e)
-        {
-            System.Windows.Forms.DialogResult noExit;
-            noExit = System.Windows.Forms.MessageBox.Show("Вы действительно хотите выйти?", "", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Information);
-            if (noExit == System.Windows.Forms.DialogResult.No)
-                e.Cancel = true;
-        }
-
-
-        //TODO:Рекорды
-        public static void Record()
-        {
-
-        }
-
-
-        //TODO:СБОРОЧКА ПАЗЛИКОВ УХУУУ
-        public static void Assembly_of_Puzzles()
-        {
-
-        }
     }
 }

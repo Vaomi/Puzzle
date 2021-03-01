@@ -60,7 +60,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GlobalClass.cs" />
     <Compile Include="Forms\GameForm.xaml.cs">
       <DependentUpon>GameForm.xaml</DependentUpon>
     </Compile>
@@ -76,7 +75,6 @@
     <Compile Include="Forms\SubTheme.xaml.cs">
       <DependentUpon>SubTheme.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TimerForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Forms\Login.xaml.cs">
@@ -266,6 +264,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Forms\Image\Trash\icons8_menu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
+      <Project>{814f3289-c9c6-4109-bb74-4bb87ad839c7}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

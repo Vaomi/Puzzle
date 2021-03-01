@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
+using ClassLibrary;
+
 namespace Puzzle
 {
     /// <summary>
@@ -28,11 +30,11 @@ namespace Puzzle
         {
             InitializeComponent();
             //Визуализация картинки 
-            //GlobalClass.ImageToGameForm(Place); //(главной)
-            GlobalClass.ImageToGameForm(Example); //(примера-маленькой)
+            ShowImages.ImageToGameForm(Place); //(главной)
+            ShowImages.ImageToGameForm(Example); //(примера-маленькой)
 
             //Никнейм (label)
-            LabelNicName.Content = GlobalClass.NicName;
+            LabelNicName.Content = ShowImages.NicName;
 
             //Время (label)
             tf = new TimerForm(0, LabelTime);
