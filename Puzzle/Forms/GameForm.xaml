@@ -13,7 +13,7 @@
         <Button HorizontalAlignment="Left" Margin="218,198.787,0,0" Width="1041.446" Height="587.626" VerticalAlignment="Top">
             <Image x:Name="Picture" Margin="0" OpacityMask="#FFFFF5F5" Source="../Image/Animal/Cat/Cat1.jpg" Height="583.413" VerticalAlignment="Top"/>
         </Button>
-        <Image x:Name="Place" Margin="218,198.787,660.554,113.187"/>
+        <Image x:Name="Place" Margin="218,198.787,0,0" Height="587.626" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1041.446"/>
         <Label x:Name="LabelNicName" Content="{}{NicName}" HorizontalAlignment="Left" Margin="1412.71,213.524,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
         <Label x:Name="LabelTime" Content="{}{00:00}" HorizontalAlignment="Left" Margin="1392.966,265.768,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
         <Label x:Name="LabelProcess" Content="{}{Process}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1545.503,313.011,0,0"/>

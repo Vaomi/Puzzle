@@ -10,7 +10,7 @@ using System.Windows.Threading;
 
 namespace ClassLibrary
 {
-    public static class ShowImages
+    public static class GlobalClass
     {
         //Диалоговое окно выхода
         public static void ExitForm(System.ComponentModel.CancelEventArgs e)
