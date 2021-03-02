@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+//using System.Windows.Forms;
 
 using ClassLibrary;
 
@@ -30,8 +31,8 @@ namespace Puzzle
         {
             InitializeComponent();
             //Визуализация картинки 
-            ShowImages.ImageToGameForm(Place); //(главной)
-            ShowImages.ImageToGameForm(Example); //(примера-маленькой)
+            //ShowImages.ImageToGameForm(Place); //(главной) //думаю не нужна
+            //ShowImages.ImageToGameForm(Example); //(примера-маленькой)
 
             //Никнейм (label)
             LabelNicName.Content = ShowImages.NicName;
@@ -74,6 +75,60 @@ namespace Puzzle
         {
             
             
+        }
+
+
+
+
+        Vector relativeMousePos;
+        FrameworkElement draggedObject;
+
+        void StartDrag(object sender, MouseButtonEventArgs e)
+        {
+            draggedObject = (FrameworkElement)sender;
+            relativeMousePos = e.GetPosition(draggedObject) - new Point();
+            draggedObject.MouseMove += OnDragMove;
+            draggedObject.LostMouseCapture += OnLostCapture;
+            draggedObject.MouseUp += OnMouseUp;
+            Mouse.Capture(draggedObject);
+        }
+        void OnDragMove(object sender, MouseEventArgs e)
+        {
+            UpdatePosition(e);
+        }
+        void UpdatePosition(MouseEventArgs e)
+        {
+            var point = e.GetPosition(CanvasArena);
+            var newPos = point - relativeMousePos;
+            Canvas.SetLeft(draggedObject, newPos.X);
+            Canvas.SetTop(draggedObject, newPos.Y);
+        }
+        void OnMouseUp(object sender, MouseButtonEventArgs e)
+        {
+            FinishDrag(sender, e);
+            Mouse.Capture(null);
+        }
+
+        void OnLostCapture(object sender, MouseEventArgs e)
+        {
+            FinishDrag(sender, e);
+        }
+        void FinishDrag(object sender, MouseEventArgs e)
+        {
+            draggedObject.MouseMove -= OnDragMove;
+            draggedObject.LostMouseCapture -= OnLostCapture;
+            draggedObject.MouseUp -= OnMouseUp;
+            UpdatePosition(e);
+        }
+
+
+        //проверка на совпадение и постановку
+        private void ImMouseUp(object sender, MouseButtonEventArgs e) //при отпускании кнопки мыши
+        {
+            //if (Im1_1.Source == Im1_1_Nice.Source) Im1_1_Nice.Source = Im1_1.Source;
+            if (Im1_1.Tag == Canvas1_1.Tag) Canvas1_1.Source = Im1_1.Source;
+
+
         }
     }
 }

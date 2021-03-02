@@ -21,9 +21,14 @@ namespace Puzzle
     /// </summary>
     public partial class RecordsForm : Window
     {
+        //List<RecordList> recordLists;
+        //public RecordsForm(List<RecordList> lists)
         public RecordsForm()
         {
             InitializeComponent();
+
+            //recordLists = lists;
+            //Score.ItemsSource = recordLists;
 
         }
 
@@ -31,5 +36,6 @@ namespace Puzzle
         {
 
         }
+
     }
 }

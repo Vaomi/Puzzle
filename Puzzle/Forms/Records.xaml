@@ -6,11 +6,29 @@
         xmlns:local="clr-namespace:Puzzle"
         xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="Records" Height="599.9" Width="900" WindowStartupLocation="CenterScreen" Background="Black" WindowStyle="ToolWindow">
+        Title="Records" Height="700" Width="466" WindowStartupLocation="CenterScreen" Background="Black" WindowStyle="ToolWindow" ResizeMode="NoResize">
     <Grid>
         <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
-        <Label Content="Таблица рекордов" HorizontalAlignment="Center" Margin="0,23.12,0,0" VerticalAlignment="Top" Height="34.677" Width="188.658" FontSize="20" Foreground="Cyan"/>
-        <DataGrid x:Name="Record" Margin="70,75,70,0" FontSize="16" Loaded="Record_Loaded"/>
+        <Label Content="Таблица рекордов" HorizontalAlignment="Center" Margin="0,23.12,0,0" VerticalAlignment="Top" Height="45.177" Width="211.158" FontSize="22" Foreground="Cyan"/>
+        <ListBox x:Name="Score" Margin="35,86.5,35,0" Background="{x:Null}" BorderBrush="Black">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="{Binding NickName}" Grid.Column="0" Margin="5" FontSize="20"
+                                    HorizontalAlignment="Left" />
+                        <TextBlock Text="{Binding Time}" Grid.Column="1" Margin="5" FontSize="20"
+                                    HorizontalAlignment="Right" />
+                        <TextBlock Text="{Binding ThemePuzzle}" Grid.Column="2" Margin="5" FontSize="20"
+                                    HorizontalAlignment="Right" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </Grid>
 </Window>
