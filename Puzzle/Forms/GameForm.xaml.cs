@@ -11,12 +11,8 @@ namespace Puzzle
     /// </summary>
     /// 
 
-    //а точнее вот тут лучше взять https://professorweb.ru/my/WPF/base_WPF/level5/5_12.php
-    //это так, на крайний https://ru.stackoverflow.com/questions/745298/%D0%9A%D0%B0%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B0%D1%82%D1%8C-image-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-frameworkelement-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-grid
-
     public partial class GameForm : Window
     {
-
         TimerForm tf;
 
         public GameForm()
@@ -26,7 +22,6 @@ namespace Puzzle
             //ShowImages.ImageToGameForm(Place); //(главной) //думаю не нужна
             //ShowImages.ImageToGameForm(Example); //(примера-маленькой)
 
-
             //Никнейм (label)
             LabelNicName.Content = ShowImages.NicName;
 
@@ -35,14 +30,14 @@ namespace Puzzle
             tf.timer.Tick += timer_Tick;
             tf.Start();
 
-            //TODO:Процесс сбора пазла (label)
-
+            //Процесс сбора пазла (label)
+            LabelProcess.Content = ClassLibrary.AssemblingPuzzles.process + "%";
         }
 
         //Подсчёт времени
         private void timer_Tick(object sender, EventArgs e)
         {
-            if (LabelProcess.Content != "100") //LabelProcess.Content <= 100
+            if ((string)LabelProcess.Content != "100%")
             {
                 tf.Second++;
                 tf.span = TimeSpan.FromSeconds(tf.Second);
@@ -122,5 +117,7 @@ namespace Puzzle
         private void Im4_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_2, Canvas4_2);
         private void Im4_3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_3, Canvas4_3);
         private void Im4_4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_4, Canvas4_4);
+        //Процесс сбора пазла (label)
+        private void ProcessMouseUp(object sender, MouseButtonEventArgs e) => LabelProcess.Content = ClassLibrary.AssemblingPuzzles.process + "%";
     }
 }

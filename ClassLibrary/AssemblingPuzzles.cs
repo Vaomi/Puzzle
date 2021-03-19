@@ -6,10 +6,10 @@ namespace ClassLibrary
 {
     public static class AssemblingPuzzles
     {
+        public static double process;
         //TODO:СБОРОЧКА ПАЗЛИКОВ УХУУУ //ЭТА РАБОТАЕТ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
         public static void Assembly_of_Puzzles(Image Orig, Image Place)
         {
-            
             int O_V = Convert.ToInt32(Canvas.GetTop(Orig)),
                 O_H = Convert.ToInt32(Canvas.GetLeft(Orig));
 
@@ -25,6 +25,7 @@ namespace ClassLibrary
                     {
                         Place.Source = Orig.Source;
                         Orig.Visibility = Visibility.Collapsed;
+                        process += 6.25;
                         break;
                     }
                 }
