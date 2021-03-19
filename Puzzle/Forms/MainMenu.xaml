@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Главное меню" Height="700" Width="466" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="NoResize" Icon="Image/ICO/ICO_MainMenu.ico" Background="#FF040303">
+        Title="Главное меню" Height="700" Width="466" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="NoResize" Icon="Image(Forms)/ICO/ICO_MainMenu.ico" Background="#FF040303">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image Source="Image/Background.jpg " Stretch="UniformToFill"/>
+        <Image Source="Image(Forms)/Background.jpg " Stretch="UniformToFill"/>
         <Button x:Name="StartGame" Content="Начать игру" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="226.327" Height="55.546" FontSize="25" Click="StartGame_Click" Background="#FF85EBF5"/>
         <Button x:Name="Records" Content="Рекорды" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Width="226.327" Height="55.547" FontSize="25" Click="Records_Click" Background="#FF85EBF5"/>
         <Button x:Name="AboutTheProgram" Content="О программе" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="226.327" Height="55.547" FontSize="25" Click="AboutTheProgram_Click" Background="#FF85EBF5"/>

@@ -37,6 +37,7 @@ namespace Puzzle
         {
             ShowImages.Number = "1";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -44,6 +45,7 @@ namespace Puzzle
         {
             ShowImages.Number = "2";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -51,12 +53,14 @@ namespace Puzzle
         {
             ShowImages.Number = "3";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
         private void Puzzle4_Click(object sender, RoutedEventArgs e)
         {
             ShowImages.Number = "4";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -64,6 +68,7 @@ namespace Puzzle
         {
             ShowImages.Number = "5";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -71,6 +76,7 @@ namespace Puzzle
         {
             ShowImages.Number = "6";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -78,6 +84,7 @@ namespace Puzzle
         {
             ShowImages.Number = "7";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
         }
 
@@ -85,7 +92,29 @@ namespace Puzzle
         {
             ShowImages.Number = "8";
             GameForm gf = new GameForm();
+            Close();
             gf.ShowDialog();
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            if (ShowImages.Theme == "Animal")
+            {
+                SubTheme St = new SubTheme();
+                Close();
+                St.Show();
+            }
+            else
+            {
+                ThemePuzzle Tp = new ThemePuzzle();
+                Close();
+                Tp.Show();
+            }
         }
     }
 }

@@ -26,6 +26,7 @@ namespace Puzzle
         {
             ShowImages.Theme = "Animal";
             SubTheme ST = new SubTheme();
+            Close();
             ST.ShowDialog();
         }
 
@@ -34,6 +35,7 @@ namespace Puzzle
             ShowImages.Theme = "Architecture";
             ShowImages.Hepler = "Architecture";
             SelectPuzzle SP = new SelectPuzzle();
+            Close();
             SP.ShowDialog();
         }
 
@@ -42,6 +44,7 @@ namespace Puzzle
             ShowImages.Theme = "Nature";
             ShowImages.Hepler = "Nature";
             SelectPuzzle SP = new SelectPuzzle();
+            Close();
             SP.ShowDialog();
         }
 
@@ -50,6 +53,7 @@ namespace Puzzle
             ShowImages.Theme = "Cartoons";
             ShowImages.Hepler = "Cartoons";
             SelectPuzzle SP = new SelectPuzzle();
+            Close();
             SP.ShowDialog();
         }
 
@@ -58,7 +62,20 @@ namespace Puzzle
             ShowImages.Theme = "Game";
             ShowImages.Hepler = "Game";
             SelectPuzzle SP = new SelectPuzzle();
+            Close();
             SP.ShowDialog();
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu Mm = new MainMenu();
+            Close();
+            Mm.Show();
         }
     }
 }

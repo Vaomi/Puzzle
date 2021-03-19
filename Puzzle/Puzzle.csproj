@@ -175,7 +175,6 @@
     <Resource Include="Image\Animal\Insects\Insects4\Insects4.jpg" />
     <Resource Include="Image\Animal\Insects\Insects6\Insects6.jpg" />
     <Resource Include="Image\Animal\Insects\Insects7\Insects7.jpg" />
-    <Resource Include="Image\Animal\Insects\Insects8\Insects8.jpg" />
     <Resource Include="Image\Animal\Insects\Insects5\Insects5.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -185,18 +184,17 @@
     <Resource Include="Image\Animal\Rodent\Rodent4\Rodent4.jpg" />
     <Resource Include="Image\Animal\Rodent\Rodent5\Rodent5.jpg" />
     <Resource Include="Image\Animal\Rodent\Rodent6\Rodent6.jpg" />
-    <Resource Include="Image\Animal\Rodent\Rodent8\Rodent8.jpg" />
     <Resource Include="Image\Animal\Rodent\Rodent7\Rodent7.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Architecture\Architecture1.jpg" />
-    <Resource Include="Image\Architecture\Architecture2.jpg" />
-    <Resource Include="Image\Architecture\Architecture3.jpg" />
-    <Resource Include="Image\Architecture\Architecture4.jpg" />
-    <Resource Include="Image\Architecture\Architecture5.jpg" />
-    <Resource Include="Image\Architecture\Architecture6.jpg" />
-    <Resource Include="Image\Architecture\Architecture7.jpg" />
-    <Resource Include="Image\Architecture\Architecture8.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Architecture1.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Architecture2.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Architecture3.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Architecture4.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Architecture5.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Architecture6.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Architecture7.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Architecture8.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Animal\Snake\Snake1\Snake1.jpg" />
@@ -209,43 +207,41 @@
     <Resource Include="Image\Animal\Snake\Snake8\Snake8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Cartoons\Cartoons1.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons2.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons3.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons4.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons5.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons6.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons7.jpg" />
-    <Resource Include="Image\Cartoons\Cartoons8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Cartoons1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Cartoons2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Cartoons3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Cartoons4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Cartoons5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Cartoons6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Cartoons7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Cartoons8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Nature\Nature1.jpg" />
-    <Resource Include="Image\Nature\Nature3.jpg" />
-    <Resource Include="Image\Nature\Nature2.jpg" />
-    <Resource Include="Image\Nature\Nature4.jpg" />
-    <Resource Include="Image\Nature\Nature5.jpg" />
-    <Resource Include="Image\Nature\Nature7.jpg" />
-    <Resource Include="Image\Nature\Nature8.jpg" />
-    <Resource Include="Image\Nature\Nature6.jpg" />
+    <Resource Include="Image\Nature\Nature1\Nature1.jpg" />
+    <Resource Include="Image\Nature\Nature2\Nature2.jpg" />
+    <Resource Include="Image\Nature\Nature4\Nature4.jpg" />
+    <Resource Include="Image\Nature\Nature5\Nature5.jpg" />
+    <Resource Include="Image\Nature\Nature7\Nature7.jpg" />
+    <Resource Include="Image\Nature\Nature8\Nature8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Game\Game1.jpg" />
-    <Resource Include="Image\Game\Game2.jpg" />
-    <Resource Include="Image\Game\Game3.jpg" />
-    <Resource Include="Image\Game\Game4.jpg" />
-    <Resource Include="Image\Game\Game5.jpg" />
-    <Resource Include="Image\Game\Game6.jpg" />
-    <Resource Include="Image\Game\Game7.jpg" />
-    <Resource Include="Image\Game\Game8.jpg" />
+    <Resource Include="Image\Game\Game1\Game1.jpg" />
+    <Resource Include="Image\Game\Game2\Game2.jpg" />
+    <Resource Include="Image\Game\Game3\Game3.jpg" />
+    <Resource Include="Image\Game\Game4\Game4.jpg" />
+    <Resource Include="Image\Game\Game5\Game5.jpg" />
+    <Resource Include="Image\Game\Game6\Game6.jpg" />
+    <Resource Include="Image\Game\Game7\Game7.jpg" />
+    <Resource Include="Image\Game\Game8\Game8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Forms\Image\ICO\ICO_Registration.ico" />
+    <Resource Include="Forms\Image%28Forms%29\ICO\ICO_Registration.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Forms\Image\Background.jpg" />
+    <Resource Include="Forms\Image%28Forms%29\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Forms\Image\ICO\ICO_MainMenu.ico" />
+    <Resource Include="Forms\Image%28Forms%29\ICO\ICO_MainMenu.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
@@ -271,6 +267,1439 @@
     <Resource Include="Image\Animal\Cat\Cat1\Im15.jpg" />
     <Resource Include="Image\Animal\Cat\Cat1\Im16.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat2\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat3\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat4\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat5\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat6\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat7\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Cat\Cat8\Im1.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im10.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im11.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im12.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im13.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im14.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im15.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im16.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im2.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im3.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im4.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im5.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im6.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im7.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im8.jpg" />
+    <Resource Include="Image\Animal\Cat\Cat8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog1\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog2\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog3\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog4\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog5\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog6\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog7\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Dog\Dog8\Im1.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im10.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im11.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im12.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im13.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im14.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im15.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im16.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im2.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im3.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im4.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im5.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im6.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im7.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im8.jpg" />
+    <Resource Include="Image\Animal\Dog\Dog8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish1\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish2\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish3\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish4\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish5\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish6\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish7\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Fish\Fish8\Im1.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im10.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im11.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im12.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im13.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im14.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im15.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im16.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im2.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im3.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im4.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im5.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im6.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im7.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im8.jpg" />
+    <Resource Include="Image\Animal\Fish\Fish8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects1\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects2\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects3\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects4\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects5\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects6\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects7\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects8\Insects8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Insects\Insects8\Im1.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im10.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im11.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im12.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im13.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im14.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im15.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im16.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im2.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im3.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im4.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im5.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im6.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im7.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im8.jpg" />
+    <Resource Include="Image\Animal\Insects\Insects8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent8\Rodent8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im1.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im10.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im11.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im12.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im13.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im14.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im15.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im16.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im2.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im3.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im4.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im5.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im6.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im7.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im8.jpg" />
+    <Resource Include="Image\Animal\Rodent\Rodent8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake1\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake2\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake3\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake4\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake5\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake6\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake7\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Animal\Snake\Snake8\Im1.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im10.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im11.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im12.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im13.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im14.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im15.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im16.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im2.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im3.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im4.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im5.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im6.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im7.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im8.jpg" />
+    <Resource Include="Image\Animal\Snake\Snake8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game7\Im1.jpg" />
+    <Resource Include="Image\Game\Game7\Im10.jpg" />
+    <Resource Include="Image\Game\Game7\Im11.jpg" />
+    <Resource Include="Image\Game\Game7\Im12.jpg" />
+    <Resource Include="Image\Game\Game7\Im13.jpg" />
+    <Resource Include="Image\Game\Game7\Im14.jpg" />
+    <Resource Include="Image\Game\Game7\Im15.jpg" />
+    <Resource Include="Image\Game\Game7\Im16.jpg" />
+    <Resource Include="Image\Game\Game7\Im2.jpg" />
+    <Resource Include="Image\Game\Game7\Im3.jpg" />
+    <Resource Include="Image\Game\Game7\Im4.jpg" />
+    <Resource Include="Image\Game\Game7\Im5.jpg" />
+    <Resource Include="Image\Game\Game7\Im6.jpg" />
+    <Resource Include="Image\Game\Game7\Im7.jpg" />
+    <Resource Include="Image\Game\Game7\Im8.jpg" />
+    <Resource Include="Image\Game\Game7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture1\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture2\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture3\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture4\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture5\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture6\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture7\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Architecture\Architecture8\Im1.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im10.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im11.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im12.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im13.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im14.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im15.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im16.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im2.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im3.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im4.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im5.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im6.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im7.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im8.jpg" />
+    <Resource Include="Image\Architecture\Architecture8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons1\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons2\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons3\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons4\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons5\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons6\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons7\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Cartoons\Cartoons8\Im1.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im10.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im11.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im12.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im13.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im14.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im15.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im16.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im2.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im3.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im4.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im5.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im6.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im7.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im8.jpg" />
+    <Resource Include="Image\Cartoons\Cartoons8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game1\Im1.jpg" />
+    <Resource Include="Image\Game\Game1\Im10.jpg" />
+    <Resource Include="Image\Game\Game1\Im11.jpg" />
+    <Resource Include="Image\Game\Game1\Im12.jpg" />
+    <Resource Include="Image\Game\Game1\Im13.jpg" />
+    <Resource Include="Image\Game\Game1\Im14.jpg" />
+    <Resource Include="Image\Game\Game1\Im15.jpg" />
+    <Resource Include="Image\Game\Game1\Im16.jpg" />
+    <Resource Include="Image\Game\Game1\Im2.jpg" />
+    <Resource Include="Image\Game\Game1\Im3.jpg" />
+    <Resource Include="Image\Game\Game1\Im4.jpg" />
+    <Resource Include="Image\Game\Game1\Im5.jpg" />
+    <Resource Include="Image\Game\Game1\Im6.jpg" />
+    <Resource Include="Image\Game\Game1\Im7.jpg" />
+    <Resource Include="Image\Game\Game1\Im8.jpg" />
+    <Resource Include="Image\Game\Game1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game2\Im1.jpg" />
+    <Resource Include="Image\Game\Game2\Im10.jpg" />
+    <Resource Include="Image\Game\Game2\Im11.jpg" />
+    <Resource Include="Image\Game\Game2\Im12.jpg" />
+    <Resource Include="Image\Game\Game2\Im13.jpg" />
+    <Resource Include="Image\Game\Game2\Im14.jpg" />
+    <Resource Include="Image\Game\Game2\Im15.jpg" />
+    <Resource Include="Image\Game\Game2\Im16.jpg" />
+    <Resource Include="Image\Game\Game2\Im2.jpg" />
+    <Resource Include="Image\Game\Game2\Im3.jpg" />
+    <Resource Include="Image\Game\Game2\Im4.jpg" />
+    <Resource Include="Image\Game\Game2\Im5.jpg" />
+    <Resource Include="Image\Game\Game2\Im6.jpg" />
+    <Resource Include="Image\Game\Game2\Im7.jpg" />
+    <Resource Include="Image\Game\Game2\Im8.jpg" />
+    <Resource Include="Image\Game\Game2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game3\Im1.jpg" />
+    <Resource Include="Image\Game\Game3\Im10.jpg" />
+    <Resource Include="Image\Game\Game3\Im11.jpg" />
+    <Resource Include="Image\Game\Game3\Im12.jpg" />
+    <Resource Include="Image\Game\Game3\Im13.jpg" />
+    <Resource Include="Image\Game\Game3\Im14.jpg" />
+    <Resource Include="Image\Game\Game3\Im15.jpg" />
+    <Resource Include="Image\Game\Game3\Im16.jpg" />
+    <Resource Include="Image\Game\Game3\Im2.jpg" />
+    <Resource Include="Image\Game\Game3\Im3.jpg" />
+    <Resource Include="Image\Game\Game3\Im4.jpg" />
+    <Resource Include="Image\Game\Game3\Im5.jpg" />
+    <Resource Include="Image\Game\Game3\Im6.jpg" />
+    <Resource Include="Image\Game\Game3\Im7.jpg" />
+    <Resource Include="Image\Game\Game3\Im8.jpg" />
+    <Resource Include="Image\Game\Game3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game4\Im1.jpg" />
+    <Resource Include="Image\Game\Game4\Im10.jpg" />
+    <Resource Include="Image\Game\Game4\Im11.jpg" />
+    <Resource Include="Image\Game\Game4\Im12.jpg" />
+    <Resource Include="Image\Game\Game4\Im13.jpg" />
+    <Resource Include="Image\Game\Game4\Im14.jpg" />
+    <Resource Include="Image\Game\Game4\Im15.jpg" />
+    <Resource Include="Image\Game\Game4\Im16.jpg" />
+    <Resource Include="Image\Game\Game4\Im2.jpg" />
+    <Resource Include="Image\Game\Game4\Im3.jpg" />
+    <Resource Include="Image\Game\Game4\Im4.jpg" />
+    <Resource Include="Image\Game\Game4\Im5.jpg" />
+    <Resource Include="Image\Game\Game4\Im6.jpg" />
+    <Resource Include="Image\Game\Game4\Im7.jpg" />
+    <Resource Include="Image\Game\Game4\Im8.jpg" />
+    <Resource Include="Image\Game\Game4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game5\Im1.jpg" />
+    <Resource Include="Image\Game\Game5\Im10.jpg" />
+    <Resource Include="Image\Game\Game5\Im11.jpg" />
+    <Resource Include="Image\Game\Game5\Im12.jpg" />
+    <Resource Include="Image\Game\Game5\Im13.jpg" />
+    <Resource Include="Image\Game\Game5\Im14.jpg" />
+    <Resource Include="Image\Game\Game5\Im15.jpg" />
+    <Resource Include="Image\Game\Game5\Im16.jpg" />
+    <Resource Include="Image\Game\Game5\Im2.jpg" />
+    <Resource Include="Image\Game\Game5\Im3.jpg" />
+    <Resource Include="Image\Game\Game5\Im4.jpg" />
+    <Resource Include="Image\Game\Game5\Im5.jpg" />
+    <Resource Include="Image\Game\Game5\Im6.jpg" />
+    <Resource Include="Image\Game\Game5\Im7.jpg" />
+    <Resource Include="Image\Game\Game5\Im8.jpg" />
+    <Resource Include="Image\Game\Game5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game6\Im1.jpg" />
+    <Resource Include="Image\Game\Game6\Im10.jpg" />
+    <Resource Include="Image\Game\Game6\Im11.jpg" />
+    <Resource Include="Image\Game\Game6\Im12.jpg" />
+    <Resource Include="Image\Game\Game6\Im13.jpg" />
+    <Resource Include="Image\Game\Game6\Im14.jpg" />
+    <Resource Include="Image\Game\Game6\Im15.jpg" />
+    <Resource Include="Image\Game\Game6\Im16.jpg" />
+    <Resource Include="Image\Game\Game6\Im2.jpg" />
+    <Resource Include="Image\Game\Game6\Im3.jpg" />
+    <Resource Include="Image\Game\Game6\Im4.jpg" />
+    <Resource Include="Image\Game\Game6\Im5.jpg" />
+    <Resource Include="Image\Game\Game6\Im6.jpg" />
+    <Resource Include="Image\Game\Game6\Im7.jpg" />
+    <Resource Include="Image\Game\Game6\Im8.jpg" />
+    <Resource Include="Image\Game\Game6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Game\Game8\Im1.jpg" />
+    <Resource Include="Image\Game\Game8\Im10.jpg" />
+    <Resource Include="Image\Game\Game8\Im11.jpg" />
+    <Resource Include="Image\Game\Game8\Im12.jpg" />
+    <Resource Include="Image\Game\Game8\Im13.jpg" />
+    <Resource Include="Image\Game\Game8\Im14.jpg" />
+    <Resource Include="Image\Game\Game8\Im15.jpg" />
+    <Resource Include="Image\Game\Game8\Im16.jpg" />
+    <Resource Include="Image\Game\Game8\Im2.jpg" />
+    <Resource Include="Image\Game\Game8\Im3.jpg" />
+    <Resource Include="Image\Game\Game8\Im4.jpg" />
+    <Resource Include="Image\Game\Game8\Im5.jpg" />
+    <Resource Include="Image\Game\Game8\Im6.jpg" />
+    <Resource Include="Image\Game\Game8\Im7.jpg" />
+    <Resource Include="Image\Game\Game8\Im8.jpg" />
+    <Resource Include="Image\Game\Game8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature3\Nature3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature1\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature1\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature6\Nature6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature2\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature2\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature3\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature3\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature4\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature4\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature5\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature5\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature6\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature6\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature7\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature7\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nature\Nature8\Im1.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im10.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im11.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im12.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im13.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im14.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im15.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im16.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im2.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im3.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im4.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im5.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im6.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im7.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im8.jpg" />
+    <Resource Include="Image\Nature\Nature8\Im9.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

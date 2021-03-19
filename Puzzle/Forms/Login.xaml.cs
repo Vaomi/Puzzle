@@ -16,11 +16,15 @@ namespace Puzzle
 
         private void RegistrButton_Click(object sender, RoutedEventArgs e)
         {
-            //Закрытие Login и открытие MainMenu
-            ShowImages.NicName = InputName.Text;
-            MainMenu Mm = new MainMenu();
-            Close();
-            Mm.Show();
+            if (InputName.Text == "") MessageBox.Show("Введите свой никнейм (хотя бы 1 символ)","Error",MessageBoxButton.OK,MessageBoxImage.Error);
+            else
+            {
+                //Закрытие Login и открытие MainMenu
+                ShowImages.NicName = InputName.Text;
+                MainMenu Mm = new MainMenu();
+                Close();
+                Mm.Show();
+            }
         }
     }
 }

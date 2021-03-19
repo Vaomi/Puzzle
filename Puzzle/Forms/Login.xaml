@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Вход в игру" Height="281" Width="545" WindowStartupLocation="CenterScreen" Icon="Image/ICO/ICO_Registration.ico" ResizeMode="NoResize" Background="#FF0A0909">
+        Title="Вход в игру" Height="275" Width="453" WindowStartupLocation="CenterScreen" Icon="Image(Forms)/ICO/ICO_Registration.ico" ResizeMode="NoResize" Background="#FF0A0909">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image Source="Image/Background.jpg " Stretch="UniformToFill"/>
+        <Image Source="Image(Forms)/Background.jpg " Stretch="UniformToFill"/>
         <TextBox x:Name="InputName" HorizontalAlignment="Center" Height="32.993" Margin="0,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240.189" TextDecorations="{x:Null}" Opacity="0.8" FontSize="18"/>
         <Label Content="Добро пожаловать в игру. &#xD;&#xA;   Введите свой никнейм" Foreground="Cyan" HorizontalAlignment="Center" Height="71.617" Margin="0,18.589,0,0" VerticalAlignment="Top" Width="281.98" FontSize="22"/>
-        <Button x:Name="RegistrButton" Content="Войти в игру" Margin="0,155,0,0" FontSize="22" HorizontalAlignment="Center" Width="165.492" Height="33.264" VerticalAlignment="Top" Click="RegistrButton_Click"/>
+        <Button x:Name="RegistrButton" Content="Войти в игру" Margin="0,155,0,0" FontSize="20" HorizontalAlignment="Center" Width="165.492" Height="33.264" VerticalAlignment="Top" Click="RegistrButton_Click" Background="#FF85EBF5"/>
     </Grid>
 </Window>

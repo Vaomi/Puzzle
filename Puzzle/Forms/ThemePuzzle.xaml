@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Выбор темы пазла" Height="850" Width="1950" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="ToolWindow" Background="#FF020202">
+        Title="Выбор темы пазла" Height="850" Width="1950" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="None" Background="#FF020202">
     <Grid Width="1950">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -13,7 +13,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
+        <Image Source="Image(Forms)/Background.jpg" Stretch="UniformToFill"/>
         <Label Content="Выберите тему пазла" Margin="0,100,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="394.616" HorizontalAlignment="Center" Foreground="Cyan"/>
         <Button x:Name="Animal" Margin="110,255,1490,0" VerticalAlignment="Top" Height="200" Click="Animal_Click">
             <Image x:Name="B_Animal"/>
@@ -39,6 +39,13 @@
         <Button Margin="1490,543,110,0" VerticalAlignment="Top" Height="200" Visibility="Hidden" d:IsHidden="True">
             <Image x:Name="B_R"/>
         </Button>
+        <Button x:Name="Back" Content="Назад" Margin="40,0,0,20" FontSize="22" Height="86" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="228" Background="#FF85EBF5" Click="Back_Click"/>
+        <Button x:Name="Exit" Content="Выход" Margin="0,0,60,20" FontSize="22" Height="86" VerticalAlignment="Bottom" Background="#FF85EBF5" Click="Exit_Click" HorizontalAlignment="Right" Width="228"/>
+        <Label x:Name="Animal1" Content="Животные" HorizontalAlignment="Left" Margin="213,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Architecture1" Content="Архитектура" HorizontalAlignment="Left" Margin="671,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Nature1" Content="Природа" HorizontalAlignment="Left" Margin="1151,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Cartoons1" Content="Мультфильмы" HorizontalAlignment="Left" Margin="1581,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Game1" Content="Игры" HorizontalAlignment="Left" Margin="245,494.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
 
     </Grid>
 </Window>

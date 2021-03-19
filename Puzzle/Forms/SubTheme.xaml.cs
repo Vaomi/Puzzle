@@ -25,6 +25,7 @@ namespace Puzzle
         {
             ShowImages.Hepler = "Dog";
             SelectPuzzle ST = new SelectPuzzle();
+            Close();
             ST.ShowDialog();
         }
 
@@ -32,6 +33,7 @@ namespace Puzzle
         {
             ShowImages.Hepler = "Cat";
             SelectPuzzle ST = new SelectPuzzle();
+            Close();
             ST.ShowDialog();
         }
 
@@ -39,6 +41,7 @@ namespace Puzzle
         {
             ShowImages.Hepler = "Fish";
             SelectPuzzle ST = new SelectPuzzle();
+            Close();
             ST.ShowDialog();
         }
 
@@ -53,6 +56,7 @@ namespace Puzzle
         {
             ShowImages.Hepler = "Rodent";
             SelectPuzzle ST = new SelectPuzzle();
+            Close();
             ST.ShowDialog();
         }
 
@@ -60,7 +64,20 @@ namespace Puzzle
         {
             ShowImages.Hepler = "Snake";
             SelectPuzzle ST = new SelectPuzzle();
+            Close();
             ST.ShowDialog();
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            ThemePuzzle Tp = new ThemePuzzle();
+            Close();
+            Tp.Show();
         }
     }
 }

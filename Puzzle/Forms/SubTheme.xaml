@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Puzzle"
         mc:Ignorable="d"
-        Title="Выбор темы пазла" Height="850" Width="1950" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Maximized" WindowStartupLocation="CenterScreen" Background="Black">
+        Title="Выбор темы пазла" Height="850" Width="1950" WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized" WindowStartupLocation="CenterScreen" Background="Black">
     <Grid Width="1950">
-        <Image Source="Image/Background.jpg" Stretch="UniformToFill"/>
+        <Image Source="Image(Forms)/Background.jpg" Stretch="UniformToFill"/>
         <Label Content="Выберите определённую тему пазла" Foreground="Cyan" Margin="0,100,0,0" FontSize="37" Height="96.223" VerticalAlignment="Top" Width="686.616" HorizontalAlignment="Center" FontStyle="Normal"/>
         <Button x:Name="Dog" Margin="110,255,1490,0" VerticalAlignment="Top" Height="200" Width="350" Click="Dog_Click">
             <Image x:Name="B_Dogs"/>
@@ -33,5 +33,13 @@
         <Button Margin="1490,543,110,0" VerticalAlignment="Top" Height="200" Width="350" d:IsHidden="True" Visibility="Hidden">
             <Image x:Name="B_Dogs7"/>
         </Button>
+        <Button x:Name="Back" Content="Назад" Margin="40,0,0,20" FontSize="22" Height="86" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="228" Background="#FF85EBF5" Click="Back_Click"/>
+        <Button x:Name="Exit" Content="Выход" Margin="0,0,60,20" FontSize="22" Height="86" VerticalAlignment="Bottom" Background="#FF85EBF5" Click="Exit_Click" HorizontalAlignment="Right" Width="228"/>
+        <Label x:Name="Dog1" Content="Собаки" HorizontalAlignment="Left" Margin="233,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Cat1" Content="Котики" HorizontalAlignment="Left" Margin="701.693,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Fish1" Content="Рыбки" HorizontalAlignment="Left" Margin="1167,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Insects1" Content="Насекомые" HorizontalAlignment="Left" Margin="1599,206.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Rodent1" Content="Грызуны" HorizontalAlignment="Left" Margin="229,494.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
+        <Label x:Name="Snake1" Content="Змеи" HorizontalAlignment="Left" Margin="713.693,494.746,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FF85EBF5"/>
     </Grid>
 </Window>

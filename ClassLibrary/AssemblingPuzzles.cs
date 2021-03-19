@@ -42,6 +42,7 @@ namespace ClassLibrary
         static string theme = ShowImages.Theme, 
                       Help = ShowImages.Hepler, 
                       num = ShowImages.Number; 
+        
         public static void RandomParts(Image Im)
         {
             if (number == 16) number = 0; number++;
