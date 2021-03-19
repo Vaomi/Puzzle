@@ -32,6 +32,7 @@ namespace Puzzle
             //Процесс сбора пазла (label)
             LabelProcess.Content = ClassLibrary.AssemblingPuzzles.process + "%";
 
+            //Заполнение частей пазлов
             Image[] but = new Image[16]
             {
                 Im1,

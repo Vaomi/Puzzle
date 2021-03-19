@@ -9,7 +9,7 @@ namespace ClassLibrary
     {
         public static double process;
 
-        //TODO:СБОРОЧКА ПАЗЛИКОВ УХУУУ //ЭТА РАБОТАЕТ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
+        //СБОРОЧКА ПАЗЛИКОВ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
         public static void Assembly_of_Puzzles(Image Orig, Image Place)
         {
             int O_V = Convert.ToInt32(Canvas.GetTop(Orig)),
@@ -47,8 +47,8 @@ namespace ClassLibrary
             if (number == 16) number = 0; number++;
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
-            if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{number}.jpg", UriKind.Relative);
-            //if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative); когда части будут для не животных
+            //if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{number}.jpg", UriKind.Relative); уже перевёл на правильную
+            if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative);
             else BMI.UriSource = new Uri($"/Image/Animal/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative);
             BMI.EndInit();
             Im.Source = BMI;

@@ -21,7 +21,7 @@
         <Label x:Name="LabelTime_Copy" Content="Время:" HorizontalAlignment="Left" Margin="1296,265.768,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
         <Label x:Name="LabelNicName_Copy" Content="Никейм:" HorizontalAlignment="Left" Margin="1296,213.524,0,0" VerticalAlignment="Top" Foreground="Cyan" FontSize="28"/>
         <Label x:Name="LabelProcess_Copy" Content="Сколько собранно:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Cyan" FontSize="28" Margin="1296,313.011,0,0"/>
-        <Canvas x:Name="CanvasArena" HorizontalAlignment="Left" Margin="0,10" Width="1291" Background="#FF498CBB">
+        <Canvas x:Name="CanvasArena" HorizontalAlignment="Left" Margin="0,10" Width="1291">
 
             <Grid x:Name="CanvasPuzzle" Width="1040" Height="590" Canvas.Left="241" Canvas.Top="178" Background="#FFA89898">
                 <Grid.ColumnDefinitions>

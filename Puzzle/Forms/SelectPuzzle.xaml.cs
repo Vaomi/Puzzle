@@ -31,7 +31,6 @@ namespace Puzzle
                 ShowImages.СorrectSelectPuzzle((Image)puzl.Content);
             }
         }
-
         
         //Присваивание бля каждого button определённого индекса и вызов SelectPuzzle
         private void Puzzle1_Click(object sender, RoutedEventArgs e) 
