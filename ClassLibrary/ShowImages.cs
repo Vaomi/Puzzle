@@ -27,8 +27,8 @@ namespace ClassLibrary
             BMI.BeginInit();
 
             //для всех остальных
-            //if (But1.Name != "Animal") BMI.UriSource = new Uri($"/Image/{But1.Name}/{But1.Name}{num}.jpg", UriKind.Relative);
-            if (But1.Name != "Animal") BMI.UriSource = new Uri($"/Image/{But1.Name}/{But1.Name}{num}/{But1.Name}{num}.jpg", UriKind.Relative);
+            if (But1.Name != "Animal") BMI.UriSource = new Uri($"/Image/{But1.Name}/{But1.Name}{num}.jpg", UriKind.Relative);
+            //if (But1.Name != "Animal") BMI.UriSource = new Uri($"/Image/{But1.Name}/{But1.Name}{num}/{But1.Name}{num}.jpg", UriKind.Relative);
             //для Animal
             else
             {
@@ -59,15 +59,15 @@ namespace ClassLibrary
         }
 
         
-        //Последовательная картинка на вывод в SelectPuzzle из SubTheme
+        //Последовательная картинка на вывод в SelectPuzzle
         static int num = 0; //Указатель на номер рисунка
         public static void СorrectSelectPuzzle(Image Im1)
         {
             if (num == 8) num = 0; num++; //Указатель на номер рисунка
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
-            //if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
-            if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}/{Hepler}{num}.jpg", UriKind.Relative);
+            if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
+            //if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Hepler}/{Hepler}{num}/{Hepler}{num}.jpg", UriKind.Relative);
             //else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{num}.jpg", UriKind.Relative);
             else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{num}/{Hepler}{num}.jpg", UriKind.Relative);
             BMI.EndInit();
@@ -79,13 +79,12 @@ namespace ClassLibrary
         {
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
-            //if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Theme}/{Theme}{Number}.jpg", UriKind.Relative);
-            if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Theme}/{Theme}{Number}/{Theme}{Number}.jpg", UriKind.Relative);
+            if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Theme}/{Theme}{Number}.jpg", UriKind.Relative);
+            //if (Theme != "Animal") BMI.UriSource = new Uri($"/Image/{Theme}/{Theme}{Number}/{Theme}{Number}.jpg", UriKind.Relative);
             //else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{Number}.jpg", UriKind.Relative);
             else BMI.UriSource = new Uri($"/Image/Animal/{Hepler}/{Hepler}{Number}/{Hepler}{Number}.jpg", UriKind.Relative);
             BMI.EndInit();
             Im1.Source = BMI;
         }
-
     }
 }

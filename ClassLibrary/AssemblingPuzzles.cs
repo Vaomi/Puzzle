@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Windows.Controls;
 using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace ClassLibrary
 {
     public static class AssemblingPuzzles
     {
         public static double process;
+
         //TODO:СБОРОЧКА ПАЗЛИКОВ УХУУУ //ЭТА РАБОТАЕТ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
         public static void Assembly_of_Puzzles(Image Orig, Image Place)
         {
@@ -34,6 +36,22 @@ namespace ClassLibrary
                     H_From += 260; H_Before += 260;
                 }
             }
+        }
+
+        static int number = 0;
+        static string theme = ShowImages.Theme, 
+                      Help = ShowImages.Hepler, 
+                      num = ShowImages.Number; 
+        public static void RandomParts(Image Im)
+        {
+            if (number == 16) number = 0; number++;
+            BitmapImage BMI = new BitmapImage();
+            BMI.BeginInit();
+            if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{number}.jpg", UriKind.Relative);
+            //if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative); когда части будут для не животных
+            else BMI.UriSource = new Uri($"/Image/Animal/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative);
+            BMI.EndInit();
+            Im.Source = BMI;
         }
     }
 }

@@ -36,59 +36,59 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <Image x:Name="Canvas1_1" Canvas.Left="0" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas1" Canvas.Left="0" Canvas.Top="0" Width="260"
                     Grid.Column="0" Grid.Row="0" Tag="1" Height="147.5"/>
-                <Image x:Name="Canvas1_2" Canvas.Left="260" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas2" Canvas.Left="260" Canvas.Top="0" Width="260"
                     Grid.Column="1" Grid.Row="0" Tag="2" Height="147.5"/>
-                <Image x:Name="Canvas1_3" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260" 
+                <Image x:Name="Canvas3" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260" 
                     Grid.Column="2" Grid.Row="0" Tag="3"/>
-                <Image x:Name="Canvas1_4" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260" 
+                <Image x:Name="Canvas4" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260" 
                     Grid.Column="3" Grid.Row="0" Tag="4"/>
 
-                <Image x:Name="Canvas2_1" Canvas.Left="0" Canvas.Top="0" Width="260" 
+                <Image x:Name="Canvas5" Canvas.Left="0" Canvas.Top="0" Width="260" 
                     Grid.Column="0" Grid.Row="1" Tag="5" Height="147.5"/>
-                <Image x:Name="Canvas2_2" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas6" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
                     Grid.Column="1" Grid.Row="1" Tag="6"/>
-                <Image x:Name="Canvas2_3" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas7" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="2" Grid.Row="1" Tag="7"/>
-                <Image x:Name="Canvas2_4" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas8" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="3" Grid.Row="1" Tag="8"/>
 
-                <Image x:Name="Canvas3_1" Height="147.5" Canvas.Left="0" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas9" Height="147.5" Canvas.Left="0" Canvas.Top="0" Width="260"
                     Grid.Column="0" Grid.Row="2" Tag="9"/>
-                <Image x:Name="Canvas3_2" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas10" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
                     Grid.Column="1" Grid.Row="2" Tag="10"/>
-                <Image x:Name="Canvas3_3" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas11" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="2" Grid.Row="2" Tag="11" />
-                <Image x:Name="Canvas3_4" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas12" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="3" Grid.Row="2" Tag="12"/>
 
-                <Image x:Name="Canvas4_1" Height="147.5" Canvas.Left="0" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas13" Height="147.5" Canvas.Left="0" Canvas.Top="0" Width="260"
                     Grid.Column="0" Grid.Row="3" Tag="13"/>
-                <Image x:Name="Canvas4_2" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas14" Height="147.5" Canvas.Left="260" Canvas.Top="0" Width="260"
                     Grid.Column="1" Grid.Row="3" Tag="14"/>
-                <Image x:Name="Canvas4_3" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas15" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="2" Grid.Row="3" Tag="15" />
-                <Image x:Name="Canvas4_4" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
+                <Image x:Name="Canvas16" Height="147.5" Canvas.Left="540" Canvas.Top="0" Width="260"
                     Grid.Column="3" Grid.Row="3" Tag="16"/>
 
             </Grid>
-            <Image x:Name="Im1_1" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/Image/Animal/Cat/Cat1/1.1.jpg" Canvas.Top="32" Tag="1" MouseLeftButtonUp="Im1_1_MouseLeftButtonUp" Canvas.Left="10" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im1_2" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/Image/Animal/Cat/Cat1/1.2.jpg" Canvas.Left="275" Canvas.Top="10" Tag="2" MouseLeftButtonUp="Im1_2_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im1_3" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/Image/Animal/Cat/Cat1/1.3.jpg" Canvas.Left="580" Canvas.Top="10" Tag="3" MouseLeftButtonUp="Im1_3_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im1_4" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/Image/Animal/Cat/Cat1/1.4.jpg" Canvas.Left="1021" Canvas.Top="10" Tag="4" MouseLeftButtonUp="Im1_4_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im2_1" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.110.jpg" Canvas.Left="448.5" Canvas.Top="10" Tag="5" MouseLeftButtonUp="Im2_1_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im2_2" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="146" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.18.jpg" Canvas.Left="774" Tag="6" MouseLeftButtonUp="Im2_2_MouseLeftButtonUp" Canvas.Top="32" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im2_3" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.12.jpg" Canvas.Left="-68.5" Canvas.Top="134.5" Tag="7" MouseLeftButtonUp="Im2_3_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im2_4" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.1.jpg" Canvas.Top="282" Tag="8" MouseLeftButtonUp="Im2_4_MouseLeftButtonUp" Canvas.Left="-51" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im3_1" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.11.jpg" Canvas.Left="-38.5" Canvas.Top="434.5" Tag="9" MouseLeftButtonUp="Im3_1_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im3_2" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.14.jpg" Canvas.Top="603.5" Tag="10" MouseLeftButtonUp="Im3_2_MouseLeftButtonUp" Canvas.Left="-51" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im3_3" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.15.jpg" Canvas.Left="-51" Canvas.Top="788" Tag="11" MouseLeftButtonUp="Im3_3_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im3_4" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.13.jpg" Canvas.Left="208" Canvas.Top="813.5" Tag="12" MouseLeftButtonUp="Im3_4_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im4_1" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.16.jpg" Canvas.Left="468" Canvas.Top="840" Tag="13" MouseLeftButtonUp="Im4_1_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im4_2" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.17.jpg" Canvas.Top="788" Canvas.Left="687" Tag="14" MouseLeftButtonUp="Im4_2_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im4_3" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Source="/Puzzle;component/1.19.jpg" Canvas.Left="917" Canvas.Top="856.1" Tag="15" MouseLeftButtonUp="Im4_3_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
-            <Image x:Name="Im4_4" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Center" Width="260" Source="/Puzzle;component/1.111.jpg" Canvas.Left="1099" Canvas.Top="793" Tag="16" MouseLeftButtonUp="Im4_4_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im1" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Top="32" Tag="1" MouseLeftButtonUp="Im1_MouseLeftButtonUp" Canvas.Left="10" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im2" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="275" Canvas.Top="10" Tag="2" MouseLeftButtonUp="Im2_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im3" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="616" Canvas.Top="25.5" Tag="3" MouseLeftButtonUp="Im3_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im4" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="1197" Canvas.Top="10" Tag="4" MouseLeftButtonUp="Im4_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im5" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="448.5" Canvas.Top="10" Tag="5" MouseLeftButtonUp="Im5_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im6" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="146" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="917" Tag="6" MouseLeftButtonUp="Im6_MouseLeftButtonUp" Canvas.Top="10" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im7" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="-68.5" Canvas.Top="134.5" Tag="7" MouseLeftButtonUp="Im7_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im8" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Top="306" Tag="8" MouseLeftButtonUp="Im8_MouseLeftButtonUp" Canvas.Left="37" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im9" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="-68.5" Canvas.Top="396.5" Tag="9" MouseLeftButtonUp="Im9_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im10" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Top="571.5" Tag="10" MouseLeftButtonUp="Im10_MouseLeftButtonUp" Canvas.Left="-51" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im11" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="-105" Canvas.Top="732.1" Tag="11" MouseLeftButtonUp="Im11_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im12" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="203" Canvas.Top="722.1" Tag="12" MouseLeftButtonUp="Im12_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im13" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="468" Canvas.Top="788" Tag="13" MouseLeftButtonUp="Im13_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im14" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Top="708.6" Canvas.Left="733" Tag="14" MouseLeftButtonUp="Im14_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im15" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="875" Canvas.Top="773" Tag="15" MouseLeftButtonUp="Im15_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
+            <Image x:Name="Im16" HorizontalAlignment="Center" MouseLeftButtonDown="StartDrag" Height="147.5" Margin="0" VerticalAlignment="Top" Width="260" Canvas.Left="1021" Canvas.Top="732.1" Tag="16" MouseLeftButtonUp="Im16_MouseLeftButtonUp" MouseUp="ProcessMouseUp"/>
 
         </Canvas>
     </Grid>

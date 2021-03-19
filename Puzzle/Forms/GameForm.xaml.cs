@@ -19,8 +19,7 @@ namespace Puzzle
         {
             InitializeComponent();
             //Визуализация картинки 
-            //ShowImages.ImageToGameForm(Place); //(главной) //думаю не нужна
-            //ShowImages.ImageToGameForm(Example); //(примера-маленькой)
+            ShowImages.ImageToGameForm(Example); //(примера-маленькой)
 
             //Никнейм (label)
             LabelNicName.Content = ShowImages.NicName;
@@ -32,6 +31,30 @@ namespace Puzzle
 
             //Процесс сбора пазла (label)
             LabelProcess.Content = ClassLibrary.AssemblingPuzzles.process + "%";
+
+            Image[] but = new Image[16]
+            {
+                Im1,
+                Im2,
+                Im3,
+                Im4,
+                Im5,
+                Im6,
+                Im7,
+                Im8,
+                Im9,
+                Im10,
+                Im11,
+                Im12,
+                Im13,
+                Im14,
+                Im15,
+                Im16,
+            };
+            foreach (Image puzl in but)
+            {
+                AssemblingPuzzles.RandomParts(puzl);
+            }
         }
 
         //Подсчёт времени
@@ -101,22 +124,22 @@ namespace Puzzle
         }
 
         //Проверка пазлов на соприкосновение
-        private void Im1_1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im1_1, Canvas1_1);
-        private void Im1_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im1_2, Canvas1_2);
-        private void Im1_3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im1_3, Canvas1_3);
-        private void Im1_4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im1_4, Canvas1_4);
-        private void Im2_1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im2_1, Canvas2_1);
-        private void Im2_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im2_2, Canvas2_2);
-        private void Im2_3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im2_3, Canvas2_3);
-        private void Im2_4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im2_4, Canvas2_4);
-        private void Im3_1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im3_1, Canvas3_1);
-        private void Im3_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im3_2, Canvas3_2);
-        private void Im3_3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im3_3, Canvas3_3);
-        private void Im3_4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im3_4, Canvas3_4);
-        private void Im4_1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_1, Canvas4_1);
-        private void Im4_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_2, Canvas4_2);
-        private void Im4_3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_3, Canvas4_3);
-        private void Im4_4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4_4, Canvas4_4);
+        private void Im1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im1, Canvas1);
+        private void Im2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im2, Canvas2);
+        private void Im3_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im3, Canvas3);
+        private void Im4_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im4, Canvas4);
+        private void Im5_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im5, Canvas5);
+        private void Im6_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im6, Canvas6);
+        private void Im7_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im7, Canvas7);
+        private void Im8_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im8, Canvas8);
+        private void Im9_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im9, Canvas9);
+        private void Im10_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im10, Canvas10);
+        private void Im11_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im11, Canvas11);
+        private void Im12_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im12, Canvas12);
+        private void Im13_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im13, Canvas13);
+        private void Im14_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im14, Canvas14);
+        private void Im15_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im15, Canvas15);
+        private void Im16_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) => ClassLibrary.AssemblingPuzzles.Assembly_of_Puzzles(Im16, Canvas16);
         //Процесс сбора пазла (label)
         private void ProcessMouseUp(object sender, MouseButtonEventArgs e) => LabelProcess.Content = ClassLibrary.AssemblingPuzzles.process + "%";
     }
