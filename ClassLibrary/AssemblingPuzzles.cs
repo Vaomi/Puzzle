@@ -12,6 +12,7 @@ namespace ClassLibrary
         //СБОРОЧКА ПАЗЛИКОВ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
         public static void Assembly_of_Puzzles(Image Orig, Image Place)
         {
+            
             int O_V = Convert.ToInt32(Canvas.GetTop(Orig)),
                 O_H = Convert.ToInt32(Canvas.GetLeft(Orig));
 
@@ -39,17 +40,17 @@ namespace ClassLibrary
         }
 
         static int number = 0;
-        static string theme = ShowImages.Theme, 
-                      Help = ShowImages.Hepler, 
-                      num = ShowImages.Number; 
-        
+        //вставка частей
         public static void RandomParts(Image Im)
         {
+            string theme = ShowImages.Theme,
+                          Help = ShowImages.Hepler,
+                          num = ShowImages.Number;
+
             if (number == 16) number = 0; number++;
             BitmapImage BMI = new BitmapImage();
             BMI.BeginInit();
-            //if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{number}.jpg", UriKind.Relative); уже перевёл на правильную
-            if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative);
+            if (theme != "Animal") BMI.UriSource = new Uri($"/Image/{theme}/{theme}{num}/Im{number}.jpg", UriKind.Relative);
             else BMI.UriSource = new Uri($"/Image/Animal/{Help}/{Help}{num}/Im{number}.jpg", UriKind.Relative);
             BMI.EndInit();
             Im.Source = BMI;
