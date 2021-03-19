@@ -9,7 +9,7 @@ namespace ClassLibrary
     {
         public static double process;
 
-        //СБОРОЧКА ПАЗЛИКОВ (сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
+        //(сравнение координат источника и итога) можно подкоректироватть координаты, а так работает
         public static void Assembly_of_Puzzles(Image Orig, Image Place)
         {
             

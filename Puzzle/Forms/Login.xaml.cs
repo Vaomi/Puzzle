@@ -20,7 +20,7 @@ namespace Puzzle
             else
             {
                 //Закрытие Login и открытие MainMenu
-                ShowImages.NicName = InputName.Text;
+                GlobalClass.NickName = InputName.Text;
                 MainMenu Mm = new MainMenu();
                 Close();
                 Mm.Show();

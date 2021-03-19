@@ -11,9 +11,6 @@ namespace ClassLibrary
             Hepler, //Выбор подтемы в Animal
             Theme, //Выбор темы, не считая Animal
             Number; //Номер картинки в SelectPuzzle
-        //Таблица рекордов
-        public static string NicName;
-
 
         //Рандомная картинка в кнопке в "Выбор темы (ThemePuzzle)"
         public static void RandomImage(Image Im1, Button But1)
@@ -55,7 +52,6 @@ namespace ClassLibrary
             Im1.Source = BMI;
         }
 
-        
         //Последовательная картинка на вывод в SelectPuzzle
         static int num = 0; //Указатель на номер рисунка
         public static void СorrectSelectPuzzle(Image Im1)

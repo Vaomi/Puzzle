@@ -19,7 +19,6 @@ namespace Puzzle
             ShowImages.RandomImage(B_Cartoon, Cartoons);
             ShowImages.RandomImage(B_Game, Game);
             ShowImages.RandomImage(B_Nature, Nature);
-
         }
 
         private void Animal_Click(object sender, RoutedEventArgs e)

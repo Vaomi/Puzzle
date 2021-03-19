@@ -27,17 +27,13 @@ namespace Puzzle
             //LabelProcess.Content = "0%";
 
             //Никнейм (label)
-            LabelNicName.Content = ShowImages.NicName;
-
-            
+            LabelNicName.Content = GlobalClass.NickName;
 
             //Время (label)
             tf = new TimerForm(0, LabelTime);
             tf.Stop();
             tf.timer.Tick += timer_Tick;
             tf.Start();
-
-            
 
             //Заполнение частей пазлов
             Image[] but = new Image[16]
@@ -77,6 +73,7 @@ namespace Puzzle
             else if ((string)LabelProcess.Content == "100%")
             {
                 tf.Stop();
+                //GlobalClass.Time = (int)LabelTime.Content;
                 MessageBox.Show("Вы Молодец! Закончили за " + LabelTime.Content, "Поздравление",MessageBoxButton.OK);
             }
         }

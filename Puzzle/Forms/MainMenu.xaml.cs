@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using Microsoft.Win32;
+using System.Windows;
+using ClassLibrary;
 
 namespace Puzzle
 {
@@ -10,6 +12,8 @@ namespace Puzzle
         public MainMenu()
         {
             InitializeComponent();
+
+            //GlobalClass.Record(name, tim);
         }
 
         private void StartGame_Click(object sender, RoutedEventArgs e)
@@ -17,12 +21,6 @@ namespace Puzzle
             ThemePuzzle TP = new ThemePuzzle();
             Close();
             TP.ShowDialog();
-        }
-
-        private void Records_Click(object sender, RoutedEventArgs e)
-        {
-            RecordsForm rec = new RecordsForm();
-            rec.ShowDialog();
         }
 
         private void AboutTheProgram_Click(object sender, RoutedEventArgs e)

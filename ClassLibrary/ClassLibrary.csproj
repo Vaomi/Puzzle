@@ -50,10 +50,11 @@
     <Compile Include="AssemblingPuzzles.cs" />
     <Compile Include="GlobalClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecordList.cs" />
-    <Compile Include="Records.cs" />
     <Compile Include="ShowImages.cs" />
     <Compile Include="TimeForm.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
