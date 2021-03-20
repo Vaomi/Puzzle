@@ -24,7 +24,6 @@ namespace Puzzle
             //Процесс сбора пазла (label)
             if (AssemblingPuzzles.process == 100) AssemblingPuzzles.process = 0;
             LabelProcess.Content = AssemblingPuzzles.process + "%";
-            //LabelProcess.Content = "0%";
 
             //Никнейм (label)
             LabelNicName.Content = GlobalClass.NickName;
@@ -73,7 +72,6 @@ namespace Puzzle
             else if ((string)LabelProcess.Content == "100%")
             {
                 tf.Stop();
-                //GlobalClass.Time = (int)LabelTime.Content;
                 MessageBox.Show("Вы Молодец! Закончили за " + LabelTime.Content, "Поздравление",MessageBoxButton.OK);
             }
         }

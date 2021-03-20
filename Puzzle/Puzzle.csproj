@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_puzzled.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -1694,6 +1697,9 @@
     <Resource Include="Image\Nature\Nature8\Im7.jpg" />
     <Resource Include="Image\Nature\Nature8\Im8.jpg" />
     <Resource Include="Image\Nature\Nature8\Im9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8_puzzled.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
